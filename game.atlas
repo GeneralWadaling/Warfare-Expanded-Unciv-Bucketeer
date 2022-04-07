@@ -1,517 +1,951 @@
 
 game.png
-size: 1024, 128
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/Fantasyhex/Units/Armored Cruiser
   rotate: false
-  xy: 4, 79
+  xy: 4, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Armored Horseman
   rotate: false
-  xy: 4, 43
+  xy: 1172, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Armored Infantry
   rotate: false
-  xy: 44, 79
+  xy: 44, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Arquebusier
   rotate: false
-  xy: 4, 7
+  xy: 4, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Arsenal Ship
   rotate: false
-  xy: 44, 43
+  xy: 1172, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Artillery
   rotate: false
-  xy: 84, 79
+  xy: 1212, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Battering Ram
   rotate: false
-  xy: 44, 7
+  xy: 84, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Bazooka
   rotate: false
-  xy: 84, 43
+  xy: 44, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Bombard
   rotate: false
-  xy: 124, 79
+  xy: 1212, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Cannon
   rotate: false
-  xy: 84, 7
+  xy: 1252, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Carrack
   rotate: false
-  xy: 124, 43
+  xy: 124, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Carrier
   rotate: false
-  xy: 164, 79
+  xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Cavalry
   rotate: false
-  xy: 124, 7
+  xy: 1252, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Cog
   rotate: false
-  xy: 164, 43
+  xy: 1292, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Commando
   rotate: false
-  xy: 204, 79
+  xy: 164, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Commerce Raider
   rotate: false
-  xy: 164, 7
+  xy: 124, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Courser
   rotate: false
-  xy: 204, 43
+  xy: 1292, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Cuirassir
   rotate: false
-  xy: 244, 79
+  xy: 1332, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Demolition Sapper
   rotate: false
-  xy: 204, 7
+  xy: 164, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Field Artillery
   rotate: false
-  xy: 244, 43
+  xy: 1332, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Field Cannon
   rotate: false
-  xy: 284, 79
+  xy: 1372, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Field Gun
   rotate: false
-  xy: 244, 7
+  xy: 1372, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Field Howitzer
   rotate: false
-  xy: 284, 43
+  xy: 1412, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Flamethrower
   rotate: false
-  xy: 324, 79
+  xy: 1412, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Galley
   rotate: false
-  xy: 284, 7
+  xy: 1452, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Great Galley
   rotate: false
-  xy: 324, 43
+  xy: 1452, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Grenadier
   rotate: false
-  xy: 364, 79
+  xy: 1492, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Heavy Chariot
   rotate: false
-  xy: 324, 7
+  xy: 1492, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Heavy Horse Archer
   rotate: false
-  xy: 364, 43
+  xy: 1532, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Heavy Howitzer
   rotate: false
-  xy: 404, 79
+  xy: 1532, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Heavy Infantry
   rotate: false
-  xy: 364, 7
+  xy: 1572, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Heavy Weapons
   rotate: false
-  xy: 404, 43
+  xy: 1572, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Horse Archer
   rotate: false
-  xy: 444, 79
+  xy: 1612, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Horse Artillery
   rotate: false
-  xy: 404, 7
+  xy: 1612, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Hunnic Battering Ram
   rotate: false
-  xy: 444, 43
+  xy: 1652, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Hunnic Horde Archer
   rotate: false
-  xy: 484, 79
+  xy: 1652, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Incan Slinger
   rotate: false
-  xy: 444, 7
+  xy: 1692, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Javelineer
   rotate: false
-  xy: 484, 43
+  xy: 1692, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Lancer
   rotate: false
-  xy: 524, 79
+  xy: 1732, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Light Cruiser
   rotate: false
-  xy: 484, 7
+  xy: 1732, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Light Infantry
   rotate: false
-  xy: 524, 43
+  xy: 1772, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Line Infantry
   rotate: false
-  xy: 564, 79
+  xy: 1772, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Machine Gun
   rotate: false
-  xy: 524, 7
+  xy: 1812, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Medieval Lancer
   rotate: false
-  xy: 564, 43
+  xy: 1812, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Medieval Siege Tower
   rotate: false
-  xy: 604, 79
+  xy: 1852, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Men at Arms
   rotate: false
-  xy: 564, 7
+  xy: 1852, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Missile Artillery
   rotate: false
-  xy: 604, 43
+  xy: 1892, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Missile Frigate
   rotate: false
-  xy: 644, 79
+  xy: 1892, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Modern AT Missile
   rotate: false
-  xy: 604, 7
+  xy: 1932, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Modern Commando
   rotate: false
-  xy: 644, 43
+  xy: 1932, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Modern Heavy Weapons
   rotate: false
-  xy: 684, 79
+  xy: 1972, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Modern Infantry
   rotate: false
-  xy: 644, 7
+  xy: 2012, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Modern Marine
   rotate: false
-  xy: 684, 43
+  xy: 1972, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Modern SPG
   rotate: false
-  xy: 724, 79
+  xy: 2012, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Modern Tank Destroyer
   rotate: false
-  xy: 684, 7
+  xy: 1172, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Monitor
   rotate: false
-  xy: 724, 43
+  xy: 1212, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Motorized Infantry
   rotate: false
-  xy: 764, 79
+  xy: 1252, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Mounted Rifleman
   rotate: false
-  xy: 724, 7
+  xy: 1292, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Musketman
   rotate: false
-  xy: 764, 43
+  xy: 1332, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Naval Infantry
   rotate: false
-  xy: 804, 79
+  xy: 1372, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Nuclear Carrier
   rotate: false
-  xy: 764, 7
+  xy: 1412, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Pike and Shot
   rotate: false
-  xy: 804, 43
+  xy: 1452, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Pirate Galley
   rotate: false
-  xy: 844, 79
+  xy: 1492, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Royal Navy Ship of the Line
   rotate: false
-  xy: 804, 7
+  xy: 1532, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Self Propelled Gun
   rotate: false
-  xy: 844, 43
+  xy: 1572, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Ship of the Line
   rotate: false
-  xy: 884, 79
+  xy: 1612, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Skirmisher
   rotate: false
-  xy: 844, 7
+  xy: 1652, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Slinger
   rotate: false
-  xy: 884, 43
+  xy: 1692, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Spear Thrower
   rotate: false
-  xy: 924, 79
+  xy: 1732, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Spearman
   rotate: false
-  xy: 884, 7
+  xy: 1772, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Tank Destroyer
   rotate: false
-  xy: 924, 43
+  xy: 1812, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Trireme
   rotate: false
-  xy: 964, 79
+  xy: 1852, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/Fantasyhex/Units/Zeppelin
   rotate: false
-  xy: 924, 4
+  xy: 1892, 57
   size: 32, 31
   orig: 32, 31
+  offset: 0, 0
+  index: -1
+UnitIcons/Armored Cruiser
+  rotate: false
+  xy: 968, 66
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+UnitIcons/Armored Horseman
+  rotate: false
+  xy: 212, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Armored Infantry
+  rotate: false
+  xy: 212, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Arsenal Ship
+  rotate: false
+  xy: 320, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Battering Ram
+  rotate: false
+  xy: 1070, 66
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+UnitIcons/Bazooka
+  rotate: false
+  xy: 212, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bombard
+  rotate: false
+  xy: 320, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Carrack
+  rotate: false
+  xy: 4, 284
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Cog
+  rotate: false
+  xy: 4, 76
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Commando
+  rotate: false
+  xy: 428, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Commerce Raider
+  rotate: false
+  xy: 320, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Courser
+  rotate: false
+  xy: 428, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Cuirasser
+  rotate: false
+  xy: 536, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Demolition Sapper
+  rotate: false
+  xy: 428, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Field Artillery
+  rotate: false
+  xy: 536, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Field Cannon
+  rotate: false
+  xy: 644, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Field Gun
+  rotate: false
+  xy: 536, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Field Howitzer
+  rotate: false
+  xy: 644, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fighter-Bomber
+  rotate: false
+  xy: 752, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Flamethrower
+  rotate: false
+  xy: 644, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Galley
+  rotate: false
+  xy: 752, 275
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+UnitIcons/Grenadier
+  rotate: false
+  xy: 860, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Chariot
+  rotate: false
+  xy: 860, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Horse Archer
+  rotate: false
+  xy: 968, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Howitzer
+  rotate: false
+  xy: 968, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Infantry
+  rotate: false
+  xy: 1076, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Weapons
+  rotate: false
+  xy: 1076, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Horse Archer
+  rotate: false
+  xy: 1184, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Horse Artillery
+  rotate: false
+  xy: 1184, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hunnic Battering Ram
+  rotate: false
+  xy: 1292, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hunnic Horde Archer
+  rotate: false
+  xy: 1292, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Incan Slinger
+  rotate: false
+  xy: 1400, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Javelineer
+  rotate: false
+  xy: 1400, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Jet Bomber
+  rotate: false
+  xy: 1508, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Jet Interceptor
+  rotate: false
+  xy: 1508, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Light Cruiser
+  rotate: false
+  xy: 1616, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Light Infantry
+  rotate: false
+  xy: 1616, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Line Infantry
+  rotate: false
+  xy: 1724, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Medieval Lancer
+  rotate: false
+  xy: 1724, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Medieval Siege Tower
+  rotate: false
+  xy: 1832, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Men At Arms
+  rotate: false
+  xy: 1832, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Missile Artillery
+  rotate: false
+  xy: 1940, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Missile Frigate
+  rotate: false
+  xy: 1940, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern AT Missile
+  rotate: false
+  xy: 752, 167
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Commando
+  rotate: false
+  xy: 860, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Heavy Weapons
+  rotate: false
+  xy: 968, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Infantry
+  rotate: false
+  xy: 1076, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Marine
+  rotate: false
+  xy: 1184, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern SPG
+  rotate: false
+  xy: 1292, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Monitor
+  rotate: false
+  xy: 1400, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Motorized Infantry
+  rotate: false
+  xy: 1508, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mounted Rifleman
+  rotate: false
+  xy: 1616, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Naval Infantry
+  rotate: false
+  xy: 1724, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nuclear Carrier
+  rotate: false
+  xy: 1832, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pike and Shot
+  rotate: false
+  xy: 1940, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pirate Galley
+  rotate: false
+  xy: 212, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Royal Navy Ship of the Line
+  rotate: false
+  xy: 320, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Self Propelled Gun
+  rotate: false
+  xy: 428, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Slinger
+  rotate: false
+  xy: 536, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Spear Thrower
+  rotate: false
+  xy: 644, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tank Destroyer
+  rotate: false
+  xy: 752, 59
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Zeppelin
+  rotate: false
+  xy: 860, 60
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
