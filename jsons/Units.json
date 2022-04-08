@@ -450,11 +450,12 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 14,
-		"cost": 75,
+		"cost": 90,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
+		"requiredResource": "Iron",
 		"obsoleteTech": "Steel",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "Consumes [1] [Iron]", "Consumes [1] [Horses]"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -465,11 +466,12 @@
 		"replaces": "Armored Horseman",
 		"movement": 3,
 		"strength": 15,
-		"cost": 75,
+		"cost": 90,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities>", "Consumes [1] [Iron]", "Consumes [1] [Horses]"],
+		"requiredResource": "Iron",
+		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -479,10 +481,11 @@
 		"movement": 5,
 		"strength": 9,
 		"rangedStrength": 12,
-		"cost": 75,
+		"cost": 90,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Heavy Horse Archer",
 		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
@@ -733,11 +736,12 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 24,
-		"cost": 120,
+		"cost": 150,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cuirasser",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit","Consumes [1] [Iron]", "Consumes [1] [Horses]"],
+		"requiredResource": "Iron",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -745,7 +749,7 @@
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 16,
-		"cost": 120,
+		"cost": 135,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Lancer",
@@ -760,7 +764,7 @@
 		"movement": 5,
 		"strength": 15,
 		"rangedStrength": 17,
-		"cost": 120,
+		"cost": 145,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Horse Artillery",
@@ -776,7 +780,7 @@
 		"movement": 4,
 		"strength": 17,
 		"rangedStrength": 21,
-		"cost": 120,
+		"cost": 145,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Horse Artillery",
@@ -792,7 +796,7 @@
 		"uniqueTo": "Spain",
 		"movement": 4,
 		"strength": 25,
-		"cost": 135,
+		"cost": 165,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cuirasser",
@@ -810,7 +814,7 @@
 		"uniqueTo": "Siam",
 		"movement": 3,
 		"strength": 28,
-		"cost": 120,
+		"cost": 150,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Mounted Rifleman",
@@ -841,7 +845,7 @@
 		"movement": 5,
 		"strength": 16,
 		"rangedStrength": 20,
-		"cost": 120,
+		"cost": 145,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Horse Artillery",
@@ -1232,11 +1236,12 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 25,
-		"cost": 185,
+		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "Consumes [1] [Iron]", "Consumes [1] [Horses]"],
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -1246,7 +1251,7 @@
 		"strength": 20,
 		"rangedStrength": 22,
 		"range": 2,
-		"cost": 185,
+		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
@@ -1278,7 +1283,7 @@
 		"uniqueTo": "Sweden",
 		"movement": 4,
 		"strength": 25,
-		"cost": 185,
+		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Consumes [1] [Iron]", "Consumes [1] [Horses]"],
 		"promotions": ["[Hakkapeliitta] ability"],
@@ -1764,7 +1769,8 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1955,7 +1961,7 @@
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Bomber",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Consumes [1] [Oil]", "Consumes [1] [Aluminum]"]
+		"requiredResource": "Oil",
 		"attackSound": "bombing"
 	},
 	{
@@ -1973,7 +1979,7 @@
 		"promotions": ["Evasion", "Siege I"],
 		"upgradesTo": "Jet Bomber",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Consumes [1] [Oil]", "Consumes [1] [Aluminum]"]
+		"requiredResource": "Oil",
 		"attackSound": "bombing"
 	},
 	{
@@ -1996,7 +2002,7 @@
 		"cost": 400,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
+		"requiredResource": "Oil",
 		"attackSound": "tankshot"
 	},
 	{
@@ -2020,7 +2026,8 @@
 		"cost": 400,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
 	},
@@ -2292,7 +2299,8 @@
 		"cost": 475,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -2333,7 +2341,7 @@
 		"cost": 375,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Stealth Bomber",
-		"uniques": ["Consumes [1] [Oil]", "Consumes [1] [Aluminum]"]
+		"requiredResource": "Oil",
 		"attackSound": "bombing"
 	},
 	{
