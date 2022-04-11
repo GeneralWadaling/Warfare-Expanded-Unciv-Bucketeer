@@ -1,0 +1,274 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+
+    //infantry
+
+    {
+        "name": "Infantry",
+	"uniques": ["[+15]% Strength <vs [Anti Cavalry] units>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Marines",
+        "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Anti Cavalry",
+	"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Recon",
+	"uniques": ["Ignores terrain cost"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Paratrooper",
+        "movementType": "Land"
+    },
+
+    //ranged
+
+    {
+        "name": "Ranged Heavy",
+	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Support",
+	"uniques": ["[-20]% Strength <vs cities>"],
+        "movementType": "Land"
+    },
+
+    //siege
+
+    {
+        "name": "Siege Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Ranged",
+	"uniques": ["[-1] Sight"],
+        "movementType": "Land"
+    },
+
+    //cav
+
+    {
+        "name": "Heavy Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Cavalry",
+	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Counter Cavalry",
+	"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
+        "movementType": "Land"
+    },
+
+    //specialist
+
+    {
+        "name": "Anti Air",
+	"uniques": ["[+30]% Strength <vs [Air] units>", "[+30]% Strength <vs [Air Helicopter] units>"],
+        "movementType": "Land"
+    },	
+
+    //naval
+
+    {
+        "name": "Naval Melee",
+	"uniques": ["[+50]% Strength <vs [Naval Raider] units>", "[+50]% Strength <vs [Naval Submarine] units>"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Ranged",
+	"uniques": ["[-20]% Strength <vs [Land] units>"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Siege",
+	"uniques": ["[-20]% Strength <vs [Water] units>", "[+30]% Strength <vs cities>"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Carrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Raider",
+        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Naval Raider] units"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Submarine",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units"],
+        "movementType": "Water"
+    },
+
+    //aircraft
+
+    {
+        "name": "Air Fighter",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Bomber",
+        "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Close Air Support",
+        "uniques": ["Aircraft"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Atomic Bomber",
+        "uniques": ["Aircraft", "Self-destructs when attacking"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Air Helicopter",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+
+
+
+    //vanilla items
+
+    {
+        "name": "Sword",
+        "movementType": "Land"
+    },
+    {
+        "name": "Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+    },
+    {
+        "name": "Melee Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    },
+    {
+        "name": "Aircraft Carrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Atomic Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+    
+    // Deprecated unit types required for mods without a UnitTypes.json file to work
+    
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
+]
