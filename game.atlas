@@ -123,7 +123,7 @@ TileSets/FantasyHex/Units/Courser
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cuirassir
+TileSets/FantasyHex/Units/Cuirasser
   rotate: false
   xy: 1332, 132
   size: 32, 28
