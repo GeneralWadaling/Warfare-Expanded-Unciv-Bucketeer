@@ -1513,7 +1513,7 @@
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Submarine",
 		"obsoleteTech": "Refrigeration",
-		"promotions": ["Coastal Raider I"],
+		"promotions": ["Coastal Raider"],
 		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
 		"attackSound": "shipguns"
 	},
@@ -1827,7 +1827,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Frigate",
-		"uniques": ["Can see invisible [Submarine] units", "Can see invisible [Melee Water] units", "[40]% chance to intercept air attacks",
+		"uniques": ["Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units", "[40]% chance to intercept air attacks",
 			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
@@ -2133,7 +2133,7 @@
 		"name": "Armored Infantry",
 		"unitType": "Light Cavalry",
 		"movement": 3,
-		"strength": 75,
+		"strength": 70,
 		"cost": 400,
 		"requiredTech": "Combined Arms",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
@@ -2158,7 +2158,7 @@
 	{
 		"name": "Modern SPG",
 		"unitType": "Ranged Cavalry",
-		"movement": 4,
+		"movement": 5,
 		"strength": 65,
 		"rangedStrength": 85,
 		"cost": 400,
@@ -2264,8 +2264,8 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can see invisible [Melee Water] units",
-			"Can carry [2] [Missile] units", "[+50]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
+			"Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -2292,7 +2292,7 @@
 		"interceptRange": 1,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can see invisible [Melee Water] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units", "[+100]% Strength <vs [Naval Submarine] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 	{
