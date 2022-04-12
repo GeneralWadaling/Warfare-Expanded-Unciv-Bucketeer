@@ -26,7 +26,7 @@
 	{
 		"name": "Greatswords",
 		"uniques": ["[+25]% Strength <vs [Anti Cavalry] units>"],
-		"prerequisites": ["Charge", "Field Medic"],
+		"prerequisites": ["Bayonet Charge", "Field Medic"],
 		"unitTypes": ["Infantry"]
 	},
 	{
@@ -79,7 +79,7 @@
 	},
 	{
 		"name": "Rapid Response",
-		"uniques": ["[+15]% Strength <when defending>", "[+1] Movement"],
+		"uniques": ["[+20]% Strength <when defending>", "[+1] Movement"],
 		"prerequisites": ["Coastal Guards"],
 		"unitTypes": ["Marines"]
 	},
@@ -136,25 +136,24 @@
 	//Recon
 	{
 		"name": "Woodlander",
-		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"prerequisites": [],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]", "[+15]% Strength <when fighting in [Forest] tiles>", "[+15]% Strength <when fighting in [Jungle] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Highlander",
-		"uniques": ["Double movement in [Hills]"],
+		"uniques": ["Double movement in [Hills]", "[+15]% Strength <when fighting in [Hills] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Survivalist",
 		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"prerequisites": ["Woodlander"],
+		"prerequisites": ["Woodlander", "Spyglass"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Spyglass",
 		"uniques": ["[+1] Sight"],
-		"prerequisites": ["Highlander"],
+		"prerequisites": ["Highlander", "Survivalist"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -866,8 +865,8 @@
 		"unitTypes": ["Air Close Air Support"]
 	},
 	{
-		"name": "Bunker Buster",
-		"uniques": ["[+25]% Strength <vs cities>"],
+		"name": "Tank Buster",
+		"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
 		"prerequisites": ["Torpedo Bomber", "Cockpit Armor"],
 		"unitTypes": ["Air Close Air Support"]
 	},
@@ -880,19 +879,19 @@
 	{
 		"name": "Experienced Ground Crew",
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"prerequisites": ["Bunker Buster", "Precision Bombing"],
+		"prerequisites": ["Tank Buster", "Precision Bombing"],
 		"unitTypes": ["Air Close Air Support"]
 	},
 	{
-		"name": "Tank Buster",
-		"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
-		"prerequisites": ["Bunker Buster", "Precision Bombing"],
+		"name": "Bunker Buster",
+		"uniques": ["[+25]% Strength <vs cities>"],
+		"prerequisites": ["Tank Buster", "Precision Bombing"],
 		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "Ace Bomber Squadron",
 		"uniques": ["[1] additional attacks per turn", "[+2] Range"],
-		"prerequisites": ["Experienced Ground Crew", "Tank Buster"],
+		"prerequisites": ["Experienced Ground Crew", "Bunker Buster"],
 		"unitTypes": ["Air Close Air Support"]
 	},
 
@@ -916,7 +915,7 @@
 	},
 	{
 		"name": "Heavy Gunship",
-		"uniques": ["[+20]% Strength <vs [Land] units>"],
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
 		"prerequisites": ["Carpet Bombing", "Evasive Maneuver"],
 		"unitTypes": ["Air Bomber"]
 	},
@@ -970,7 +969,7 @@
 	},
 	{
 		"name": "NOE Maneuver",
-		"uniques": ["[+30]% Strength <vs [Air] units>"],
+		"uniques": ["[+30]% Strength <vs [Anti Air] units>"],
 		"prerequisites": ["Reinforced Frame", "Anti Tank Missile"],
 		"unitTypes": ["Air Helicopter"]
 	},

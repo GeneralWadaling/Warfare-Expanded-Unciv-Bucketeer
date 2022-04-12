@@ -25,8 +25,9 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Explorer",
+		"obsoleteTech": "Compass",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -652,6 +653,18 @@
 
 	// Medieval Era
 	{
+		"name": "Explorer",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 13,
+		"cost": 70,
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"requiredTech": "Compass",
+		"upgradesTo": "Ranger",
+		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Pikeman",
 		"unitType": "Anti Cavalry",
 		"movement": 2,
@@ -1236,7 +1249,7 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Landship",
-		"requiredResource": "Horses",
+		"requiredResource": "Iron",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -1282,7 +1295,7 @@
 		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
-		"requiredResource": "Horses",
+		"requiredResource": "Iron",
 		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Military Science",
@@ -1346,7 +1359,20 @@
 	},
 
 	// Industrial Era
-
+	{
+		"name": "Ranger",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 185,
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"requiredTech": "Rifling",
+		"upgradesTo": "Spec Ops",
+		"obsoleteTech": "Radar",
+		"attackSound": "shot"
+	},
 	{
 		"name": "Gatling Gun",
 		"unitType": "Ranged Support",
@@ -1816,7 +1842,7 @@
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Rocketry",
 		"uniques": ["Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Destroyer",
@@ -1828,12 +1854,23 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Frigate",
 		"uniques": ["Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units", "[40]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"May withdraw before melee ([70]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 
 	// Atomic Era
-
+	{
+		"name": "Spec Ops",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 60,
+		"range": 1,
+		"cost": 300,
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"requiredTech": "Radar",
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Nuclear Carrier",
 		"unitType": "Naval Carrier",
@@ -2018,6 +2055,7 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Tank Destroyer",
 		"requiredResource": "Oil",
 		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -2162,7 +2200,7 @@
 		"strength": 65,
 		"rangedStrength": 85,
 		"cost": 400,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
 		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "artilllery"
@@ -2238,6 +2276,17 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"attackSound": "missile"
+	},
+	{
+		"name": "Modern Tank Destroyer",
+		"unitType": "Counter Cavalry",
+		"movement": 5,
+		"strength": 75,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Oil",
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Missile Artillery",
