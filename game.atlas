@@ -1014,14 +1014,14 @@ UnitIcons/Nuclear Carrier
   index: -1
 UnitIcons/Pike and Shot
   rotate: false
-  xy: 976, 590
+  xy: 868, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pirate Galley
   rotate: false
-  xy: 652, 158
+  xy: 976, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1964,20 +1964,6 @@ UnitPromotionIcons/Paragrenadier
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Persuit
-  rotate: false
-  xy: 868, 482
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Rout
-  rotate: false
-  xy: 868, 482
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitPromotionIcons/Piracy
   rotate: false
   xy: 946, 42
@@ -1987,12 +1973,26 @@ UnitPromotionIcons/Piracy
   index: -1
 UnitPromotionIcons/Preemptive
   rotate: false
-  xy: 760, 266
+  xy: 652, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ramming
+  rotate: false
+  xy: 652, 158
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pursuit
+  rotate: false
+  xy: 760, 266
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rout
   rotate: false
   xy: 760, 266
   size: 100, 100
