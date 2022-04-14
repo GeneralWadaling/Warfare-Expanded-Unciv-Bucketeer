@@ -458,7 +458,7 @@
 	},
 	{
 		"name": "Shock and Awe",
-		"uniques": ["[-20%]% Strength for enemy [Land] units in adjacent [All] tiles"],
+		"uniques": ["[-20]% Strength for enemy [Land] units in adjacent [All] tiles"],
 		"prerequisites": ["Rout"],
 		"unitTypes": ["Heavy Cavalry"]
 	},
@@ -472,7 +472,7 @@
 	//Ranged Cavalry
 	{
 		"name": "Harassing Fire",
-		"uniques": ["[+20%] Strength <vs [Infantry] units> <when attacking>", "[+20%] Strength <vs [Anti Cavalry] units> <when attacking>"],
+		"uniques": ["[+20]% Strength <vs [Infantry] units> <when attacking>", "[+20]% Strength <vs [Anti Cavalry] units> <when attacking>"],
 		"unitTypes": ["Ranged Cavalry"]
 	},
 	{
@@ -531,7 +531,7 @@
 	{
 		"name": "Preemptive",
 		"uniques": ["[+30]% Strength <when attacking>"],
-		"prerequisites": ["Persuit"],
+		"prerequisites": ["Pursuit"],
 		"unitTypes": ["Counter Cavalry"]
 	},
 	{
