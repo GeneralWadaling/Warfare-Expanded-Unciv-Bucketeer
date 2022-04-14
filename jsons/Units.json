@@ -195,7 +195,7 @@
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Cog",
-		"promotions": ["Boarding Party I"],
+		"promotions": ["Ramming"],
 		"obsoleteTech": "Compass",
 		"attackSound": "nonmetalhit"
 	},
@@ -1367,11 +1367,21 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
 		"obsoleteTech": "Radar",
 		"attackSound": "shot"
+	},
+	{
+		"name": "Medic",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["All adjacent units heal [10] extra HP when healing"],
+		"cost": 275,
+		"requiredTech": "Biology",
+		"upgradesTo": "Ambulance",
+		"obsoleteTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Gatling Gun",
@@ -1539,8 +1549,7 @@
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Submarine",
 		"obsoleteTech": "Refrigeration",
-		"promotions": ["Coastal Raider"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
+		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1662,7 +1671,6 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"upgradesTo": "Marine",
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -1867,9 +1875,17 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [5] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Ambulance",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["All adjacent units heal [25] extra HP when healing"],
+		"cost": 450,
+		"requiredTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Nuclear Carrier",
@@ -2018,7 +2034,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"promotions": ["Evasion", "Siege I"],
+		"promotions": ["[B17] ability"],
 		"upgradesTo": "Jet Bomber",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
@@ -2052,7 +2068,7 @@
 		"name": "Tank Destroyer",
 		"unitType": "Counter Cavalry",
 		"movement": 5,
-		"strength": 65,
+		"strength": 60,
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Tank Destroyer",
@@ -2076,11 +2092,25 @@
 		//German unique unit, stronger than Tank
 	},
 	{
+		"name": "Red Army Tank",
+		"unitType": "Heavy Cavalry",
+		"uniqueTo": "Russia",
+		"replaces": "Tank",
+		"movement": 5,
+		"strength": 70,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Bazooka",
 		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 50,
-		"cost": 300,
+		"cost": 375,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Modern AT Missile",
 		"uniques": ["Never appears as a Barbarian unit"],
@@ -2096,9 +2126,8 @@
 		"cost": 600,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
-		"promotions" : ["Evasion"],
 		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
-			"Blast radius [2]"],
+			"Blast radius [1]", "Damage taken from interception reduced by [30]%"],
 		"attackSound": "nuke"
 		// Plane rather than a missile - can be based in city or Carrier only.
 		// Can be intercepted, but must die for it not to take effect.
@@ -2220,8 +2249,6 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 450,
-		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
 		"requiredTech": "Mobile Tactics",
 		"attackSound": "machinegun"
 	},
@@ -2234,6 +2261,19 @@
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Technical",
+		"unitType": "Light Cavalry",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 50,
+		"range": 1,
+		"rangedStrength": 50,
+		"cost": 400,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Can move after attacking", "Heals [15] damage if it kills an Unit", "No defensive terrain bonus"],
+		"attackSound": "Machine Gun"
 	},
 	{
 		"name": "Modern AT Missile",

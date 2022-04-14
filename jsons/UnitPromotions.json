@@ -417,8 +417,8 @@
 	{
 		"name": "Pursuit",
 		"uniques": ["[+20]% Strength <vs [Wounded] units>"],
-		"prerequisites": ["Outmaneuvering", "Marauders"],
-		"unitTypes": ["Light Cavalry"]
+		"prerequisites": ["Outmaneuvering", "Marauders", "Long Weapons"],
+		"unitTypes": ["Light Cavalry", "Counter Cavalry"]
 	},
 	{
 		"name": "Commando Cavalry",
@@ -520,12 +520,6 @@
 	{
 		"name": "Ambush",
 		"uniques": ["[+25]% Strength <in [Rough terrain] tiles>", "[+30]% Strength <in [City center] tiles>"],
-		"unitTypes": ["Counter Cavalry"]
-	},
-	{
-		"name": "Persuit",
-		"uniques": ["[+20]% Strength <vs [Wounded] units>"],
-		"prerequisites": ["Long Weapons"],
 		"unitTypes": ["Counter Cavalry"]
 	},
 	{
@@ -750,7 +744,7 @@
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
 	},
 	{
-		"name": "Weakpoint Explotation",
+		"name": "Weakpoint Exploitation",
 		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
 		"prerequisites": ["Lurking Attack", "Blockade Runner"],
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
@@ -763,8 +757,8 @@
 	},
 	{
 		"name": "Veteran Raider",
-		"uniques": ["May withdraw before melee ([50]%)", "[+35]% Strength <when attacking>"],
-		"prerequisites": ["Weakpoint Explotation", "Silent Running"],
+		"uniques": ["May withdraw before melee ([35]%)", "[+35]% Strength <when attacking>"],
+		"prerequisites": ["Weakpoint Exploitation", "Silent Running"],
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
 	},
 
@@ -963,7 +957,7 @@
 	},
 	{
 		"name": "Air to Air Weapon",
-		"uniques": ["[+10]% Strength <vs [Air] units> <when defending>", "[+10]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["[+10]% Strength <vs [Air] units> <when defending>", "[+20]% Strength <vs [Air Helicopter] units>"],
 		"prerequisites": ["Reinforced Frame", "Anti Tank Missile"],
 		"unitTypes": ["Air Helicopter"]
 	},
@@ -1094,6 +1088,10 @@
 	{
 		"name": "[Hakkapeliitta] ability",
 		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]
+	},
+	{
+		"name": "[B17] ability",
+		"uniques": ["Damage taken from interception reduced by [30]%", "[+33]% Strength <vs cities>"]
 	},
 	{
 		"name": "[Zero] ability",
