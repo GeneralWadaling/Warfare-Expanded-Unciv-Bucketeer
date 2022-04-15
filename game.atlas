@@ -846,231 +846,231 @@ UnitIcons/Incan Slinger
   index: -1
 UnitIcons/Javelineer
   rotate: false
-  xy: 112, 66
+  xy: 220, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jet Bomber
   rotate: false
-  xy: 220, 590
+  xy: 220, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Stratofortress
   rotate: false
-  xy: 220, 590
+  xy: 220, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jet Interceptor
   rotate: false
-  xy: 220, 482
+  xy: 328, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Light Cruiser
   rotate: false
-  xy: 328, 590
+  xy: 220, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Light Infantry
   rotate: false
-  xy: 220, 374
+  xy: 328, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Line Infantry
   rotate: false
-  xy: 328, 482
+  xy: 436, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Medieval Lancer
   rotate: false
-  xy: 220, 158
+  xy: 328, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Medieval Siege Tower
   rotate: false
-  xy: 328, 266
+  xy: 436, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Men At Arms
   rotate: false
-  xy: 436, 374
+  xy: 544, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Missile Artillery
   rotate: false
-  xy: 544, 482
+  xy: 652, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Missile Frigate
   rotate: false
-  xy: 652, 590
+  xy: 328, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Modern AT Missile
   rotate: false
-  xy: 328, 158
+  xy: 436, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Modern Commando
   rotate: false
-  xy: 436, 266
+  xy: 544, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Modern Heavy Weapons
   rotate: false
-  xy: 544, 374
+  xy: 652, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Modern Infantry
   rotate: false
-  xy: 652, 482
+  xy: 760, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Modern Marine
   rotate: false
-  xy: 760, 590
+  xy: 436, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Modern SPG
   rotate: false
-  xy: 436, 158
+  xy: 544, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Modern Tank Destroyer
   rotate: false
-  xy: 544, 266
+  xy: 652, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Monitor
   rotate: false
-  xy: 652, 374
+  xy: 760, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Motorized Infantry
   rotate: false
-  xy: 760, 482
+  xy: 868, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mounted Rifleman
   rotate: false
-  xy: 868, 590
+  xy: 544, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Naval Infantry
   rotate: false
-  xy: 652, 266
+  xy: 760, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Nuclear Carrier
   rotate: false
-  xy: 760, 374
+  xy: 868, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pike and Shot
   rotate: false
-  xy: 868, 482
+  xy: 976, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pirate Galley
   rotate: false
-  xy: 976, 590
+  xy: 652, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ranger
   rotate: false
-  xy: 868, 374
+  xy: 976, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Red Army Tank
   rotate: false
-  xy: 760, 158
+  xy: 868, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Royal Navy Ship of the Line
   rotate: false
-  xy: 868, 266
+  xy: 976, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Self Propelled Gun
   rotate: false
-  xy: 1192, 590
+  xy: 868, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Slinger
   rotate: false
-  xy: 1084, 374
+  xy: 1192, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Spear Thrower
   rotate: false
-  xy: 1300, 590
+  xy: 976, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Spec Ops
   rotate: false
-  xy: 976, 158
+  xy: 1084, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1845,6 +1845,20 @@ UnitPromotionIcons/Volatile Munitions
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Infiltration
+  rotate: false
+  xy: 112, 66
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Spyglass
+  rotate: false
+  xy: 112, 66
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Interception Countermeasure
   rotate: false
   xy: 424, 42
@@ -1875,7 +1889,7 @@ UnitPromotionIcons/Lightening Warfare
   index: -1
 UnitPromotionIcons/Line of Battle
   rotate: false
-  xy: 436, 590
+  xy: 220, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1889,7 +1903,7 @@ UnitPromotionIcons/Littoral Warfare
   index: -1
 UnitPromotionIcons/Long Weapons
   rotate: false
-  xy: 220, 266
+  xy: 328, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1903,35 +1917,35 @@ UnitPromotionIcons/Loose Formation
   index: -1
 UnitPromotionIcons/Lurking Attack
   rotate: false
-  xy: 328, 374
+  xy: 436, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Naval Patrol Aircraft
   rotate: false
-  xy: 328, 374
+  xy: 436, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Torpedo Bomber
   rotate: false
-  xy: 328, 374
+  xy: 436, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Marine Commando
   rotate: false
-  xy: 436, 482
+  xy: 544, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Marksman
   rotate: false
-  xy: 544, 590
+  xy: 220, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1952,7 +1966,7 @@ UnitPromotionIcons/NOE Maneuver
   index: -1
 UnitPromotionIcons/Naval Blockade
   rotate: false
-  xy: 544, 158
+  xy: 652, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1973,28 +1987,28 @@ UnitPromotionIcons/Piracy
   index: -1
 UnitPromotionIcons/Preemptive
   rotate: false
-  xy: 652, 158
+  xy: 760, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ramming
   rotate: false
-  xy: 652, 158
+  xy: 760, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pursuit
   rotate: false
-  xy: 760, 266
+  xy: 868, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rout
   rotate: false
-  xy: 760, 266
+  xy: 868, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2008,14 +2022,14 @@ UnitPromotionIcons/Raiding
   index: -1
 UnitPromotionIcons/Rear Attack
   rotate: false
-  xy: 976, 482
+  xy: 1084, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Recovery
   rotate: false
-  xy: 1084, 590
+  xy: 760, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2050,14 +2064,14 @@ UnitPromotionIcons/Rocket Bombardment
   index: -1
 UnitPromotionIcons/Saboteur
   rotate: false
-  xy: 976, 374
+  xy: 1084, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sapping
   rotate: false
-  xy: 1084, 482
+  xy: 1192, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2078,21 +2092,21 @@ UnitPromotionIcons/Shock and Awe
   index: -1
 UnitPromotionIcons/Shoot and Scoot
   rotate: false
-  xy: 868, 158
+  xy: 976, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Silent Running
   rotate: false
-  xy: 976, 266
+  xy: 1084, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sneak Attack
   rotate: false
-  xy: 1192, 482
+  xy: 1300, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2102,13 +2116,6 @@ UnitPromotionIcons/Sortie
   xy: 1294, 40
   size: 50, 50
   orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Spyglass
-  rotate: false
-  xy: 1084, 266
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strafe
