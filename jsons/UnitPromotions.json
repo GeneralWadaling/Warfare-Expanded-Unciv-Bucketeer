@@ -136,7 +136,7 @@
 	//Recon
 	{
 		"name": "Woodlander",
-		"uniques": ["[+20]% Strength <when fighting in [Forest] tiles>", "[+20]% Strength <when fighting in [Jungle] tiles>"],
+		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+20]% Strength <when fighting in [Forest] tiles>", "[+20]% Strength <when fighting in [Jungle] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -808,42 +808,42 @@
 	{
 		"name": "Dogfighting",
 		"uniques": ["[+30]% Strength <vs [Air Fighter] units>"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
 	},
 	{
 		"name": "Interception Countermeasure",
 		"uniques": ["Damage taken from interception reduced by [50]%"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
 	},
 	{
 		"name": "Interceptor",
 		"uniques": ["[+30]% Strength <vs [Air Close Air Support] units>", "[+50]% Strength <vs [Air Bomber] units>"],
 		"prerequisites": ["Dogfighting", "Interception Countermeasure"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
 	},
 	{
 		"name": "Strafe",
 		"uniques": ["[+25]% Strength <vs [non-air] units>"],
 		"prerequisites": ["Dogfighting", "Interception Countermeasure"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
 	},
 	{
 		"name": "Sortie",
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"prerequisites": ["Interceptor"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
 	},
 	{
 		"name": "Fast Resupply",
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"prerequisites": ["Strafe"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
 	},
 	{
 		"name": "Ace Fighter Squadron",
 		"uniques": ["[+25]% Strength", "[+2] Range"],
 		"prerequisites": ["Sortie", "Fast Resupply"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
 	},
 
 
@@ -851,42 +851,48 @@
 	{
 		"name": "Torpedo Bomber",
 		"uniques": ["[+20]% Strength <vs [Naval] units>"],
-		"unitTypes": ["Air Close Air Support"]
+		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
 	},
 	{
 		"name": "Cockpit Armor",
 		"uniques": ["Damage taken from interception reduced by [30]%"],
-		"unitTypes": ["Air Close Air Support"]
+		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
 	},
 	{
 		"name": "Tank Buster",
 		"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
 		"prerequisites": ["Torpedo Bomber", "Cockpit Armor"],
-		"unitTypes": ["Air Close Air Support"]
+		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+	},
+	{
+		"name": "SEAD",
+		"uniques": ["Damage taken from interception reduced by [20]%", "[+25]% Strength <vs [Anti Air] units>"],
+		"prerequisites": ["Cockpit Armor"],
+		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
 	},
 	{
 		"name": "Precision Bombing",
 		"uniques": ["[+20]% Strength <vs [Land] units>"],
 		"prerequisites": ["Torpedo Bomber", "Cockpit Armor"],
-		"unitTypes": ["Air Close Air Support"]
+		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
 	},
 	{
 		"name": "Experienced Ground Crew",
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"prerequisites": ["Tank Buster", "Precision Bombing"],
-		"unitTypes": ["Air Close Air Support"]
+		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD"],
+		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
 	},
 	{
 		"name": "Bunker Buster",
 		"uniques": ["[+25]% Strength <vs cities>"],
-		"prerequisites": ["Tank Buster", "Precision Bombing"],
-		"unitTypes": ["Air Close Air Support"]
+		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD"],
+		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
 	},
 	{
 		"name": "Ace Bomber Squadron",
 		"uniques": ["[1] additional attacks per turn", "[+2] Range"],
 		"prerequisites": ["Experienced Ground Crew", "Bunker Buster"],
-		"unitTypes": ["Air Close Air Support"]
+		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
 	},
 
 
@@ -1096,5 +1102,9 @@
 	{
 		"name": "[Zero] ability",
 		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
+	},
+	{
+		"name": "UAV",
+		"uniques": ["[-50]% maintenance costs"]
 	}
 ]

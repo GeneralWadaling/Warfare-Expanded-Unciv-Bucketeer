@@ -1686,12 +1686,12 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[40]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[40]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+100]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Great War Bomber",
-		"unitType": "Air Close Air Support",
+		"unitType": "Air Bomber",
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
@@ -1715,7 +1715,7 @@
 		"cost": 425,
 		"requiredTech": "Flight",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+		"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+100]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Helicopter Gunship",
 		"obsoleteTech": "Computers",
@@ -1740,7 +1740,6 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Never appears as a Barbarian unit"],
-		"obsoleteTech": "Robotics",
 		"upgradesTo": "Missile Cruiser",
 		"attackSound": "shipguns"
 	},
@@ -1756,7 +1755,7 @@
 		"requiredTech": "Electronics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
-		"obsoleteTech": "Robotics",
+		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Arsenal Ship",
 		"attackSound": "shipguns"
 	},
@@ -1971,7 +1970,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Interceptor",
 		"obsoleteTech": "Lasers",
-		"uniques": ["[60]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[60]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+30]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1988,7 +1987,7 @@
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Interceptor",
 		"obsoleteTech": "Lasers",
-		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
@@ -1999,13 +1998,13 @@
 		"strength": 45,
 		"rangedStrength": 60,
 		"range": 8,
-		"interceptRange": 8,
+		"interceptRange": 6,
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
-		"uniques": ["[70]% chance to intercept air attacks", "[+50]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Armored] units>"],
+		"uniques": ["[50]% chance to intercept air attacks", "[+50]% Strength <vs [Air Bomber] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Counter Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2223,6 +2222,15 @@
 		"attackSound": "torpedo"
 	},
 	{
+		"name": "Drone Launch Vehicle",
+		"unitType": "Siege Carrier",
+		"movement": 2,
+		"strength": 60,
+		"cost": 375,
+		"requiredTech": "Robotics",
+		"uniques": ["Cannot attack", "Can carry [1] [Air Fighter Drone] units", "Can carry [1] [Air Close Air Support Drone] units", "Never appears as a Barbarian unit"]
+	},
+	{
 		"name": "Modern SPG",
 		"unitType": "Ranged Cavalry",
 		"movement": 5,
@@ -2352,7 +2360,7 @@
 		"range": 3,
 		"interceptRange": 2,
 		"cost": 425,
-		"requiredTech": "Robotics",
+		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
 			"Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
@@ -2366,7 +2374,7 @@
 		"rangedStrength": 100,
 		"range": 3,
 		"cost": 425,
-		"requiredTech": "Robotics",
+		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Aluminum",
 		"uniques": ["Can carry [4] [Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
@@ -2407,7 +2415,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -2421,17 +2429,46 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[80]% chance to intercept air attacks", "[+100]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[80]% chance to intercept air attacks", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Counter Cavalry] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
-{
+	{
+		"name": "Recon UAV",
+		"unitType": "Air Fighter Drone",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 375,
+		"requiredTech": "Robotics",
+		"uniques": ["[70]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>", "[+150]% Strength <vs [Air Helicopter] units>", "[+4] Sight"],
+		"requiredResource": "Aluminum",
+		"promotions": ["UAV"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Attack UAV",
+		"unitType": "Air Close Air Support Drone",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 375,
+		"requiredTech": "Robotics",
+		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Counter Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units>", "[+50]% Strength <vs [Air Helicopter] units>"],
+		"requiredResource": "Aluminum",
+		"promotions": ["UAV"],
+		"attackSound": "jetgun"
+	},
+	{
 		"name": "Jet Bomber",
 		"unitType": "Air Bomber",
 		"movement": 1,
 		"strength": 85,
 		"rangedStrength": 85,
 		"range": 20,
-		"cost": 375,
+		"cost": 425,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Stealth Bomber",
 		"requiredResource": "Oil",

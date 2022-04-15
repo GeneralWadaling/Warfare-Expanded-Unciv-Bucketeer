@@ -27,7 +27,7 @@
     },
     {
         "name": "Recon",
-	"uniques": ["Ignores terrain cost"],
+	"uniques": ["All tiles cost 1 movement"],
         "movementType": "Land"
     },
     {
@@ -56,6 +56,11 @@
     },
     {
         "name": "Siege Ranged",
+	"uniques": ["[-1] Sight"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Carrier",
 	"uniques": ["[-1] Sight"],
         "movementType": "Land"
     },
@@ -129,12 +134,22 @@
         "movementType": "Air"
     },
     {
+        "name": "Air Fighter Drone",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"],
+        "movementType": "Air"
+    },
+    {
         "name": "Air Bomber",
         "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
         "movementType": "Air"
     },
     {
         "name": "Air Close Air Support",
+        "uniques": ["Aircraft"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Close Air Support Drone",
         "uniques": ["Aircraft"],
         "movementType": "Air"
     },
