@@ -147,7 +147,7 @@
 	{
 		"name": "Survivalist",
 		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"prerequisites": ["Woodlander", "Spyglass"],
+		"prerequisites": ["Woodlander", "Infiltration"],
 		"unitTypes": ["Recon"]
 	},
 	{
