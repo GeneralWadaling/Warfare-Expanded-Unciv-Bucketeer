@@ -2439,11 +2439,10 @@
 		"strength": 45,
 		"rangedStrength": 45,
 		"range": 10,
-		"interceptRange": 10,
-		"cost": 375,
+		"interceptRange": 8,
+		"cost": 400,
 		"requiredTech": "Robotics",
 		"uniques": ["[70]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>", "[+150]% Strength <vs [Air Helicopter] units>", "[+4] Sight"],
-		"requiredResource": "Aluminum",
 		"promotions": ["UAV"],
 		"attackSound": "jetgun"
 	},
