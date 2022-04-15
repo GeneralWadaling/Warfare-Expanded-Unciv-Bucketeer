@@ -136,12 +136,12 @@
 	//Recon
 	{
 		"name": "Woodlander",
-		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]", "[+15]% Strength <when fighting in [Forest] tiles>", "[+15]% Strength <when fighting in [Jungle] tiles>"],
+		"uniques": ["[+20]% Strength <when fighting in [Forest] tiles>", "[+20]% Strength <when fighting in [Jungle] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Highlander",
-		"uniques": ["Double movement in [Hills]", "[+15]% Strength <when fighting in [Hills] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Hills] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -151,8 +151,8 @@
 		"unitTypes": ["Recon"]
 	},
 	{
-		"name": "Spyglass",
-		"uniques": ["[+1] Sight"],
+		"name": "Infiltration",
+		"uniques": ["[+1] Sight", "May enter foreign tiles without open borders"],
 		"prerequisites": ["Highlander", "Survivalist"],
 		"unitTypes": ["Recon"]
 	},
@@ -165,7 +165,7 @@
 	{
 		"name": "Battle Recon",
 		"uniques": ["Ignores Zone of Control", "May withdraw before melee ([50]%)"],
-		"prerequisites": ["Spyglass"],
+		"prerequisites": ["Infiltration"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -549,7 +549,7 @@
 
 	//Anti Air
 	{
-		"name": "Defensive Crew",
+		"name": "Defense Crew",
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Anti Air"]
 	},
@@ -561,7 +561,7 @@
 	{
 		"name": "Ground Fire Support",
 		"uniques": ["[+20]% Strength <vs [Land] units>"],
-		"prerequisites": ["Defensive Crew"],
+		"prerequisites": ["Defense Crew"],
 		"unitTypes": ["Anti Air"]
 	},
 	{
