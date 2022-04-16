@@ -204,7 +204,7 @@
 		"unitType": "Naval Melee",
 		"uniqueTo": "Denmark",
 		"replaces": "Galley",
-		"movement": 4,
+		"movement": 5,
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
