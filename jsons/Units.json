@@ -1656,7 +1656,7 @@
 	{
 		"name": "Motorized Infantry",
 		"unitType": "Light Cavalry",
-		"movement": 3,
+		"movement": 4,
 		"strength": 50,
 		"cost": 350,
 		"requiredTech": "Railroads",
@@ -2238,7 +2238,7 @@
 	{
 		"name": "Armored Infantry",
 		"unitType": "Light Cavalry",
-		"movement": 3,
+		"movement": 4,
 		"strength": 70,
 		"cost": 400,
 		"requiredTech": "Combined Arms",
@@ -2303,7 +2303,7 @@
 	{
 		"name": "Mechanized Infantry",
 		"unitType": "Light Cavalry",
-		"movement": 3,
+		"movement": 4,
 		"strength": 90,
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
@@ -2496,9 +2496,10 @@
 		"rangedStrength": 45,
 		"range": 10,
 		"interceptRange": 8,
-		"cost": 400,
+		"cost": 375,
 		"requiredTech": "Robotics",
-		"uniques": ["[70]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>", "[+150]% Strength <vs [Air Helicopter] units>", "[+4] Sight"],
+		"requiredResource": "Aluminum",
+		"uniques": ["[70]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>", "[+50]% Strength <vs [Air Helicopter] units>", "[+4] Sight"],
 		"promotions": ["UAV"],
 		"attackSound": "jetgun"
 	},
@@ -2509,7 +2510,7 @@
 		"strength": 45,
 		"rangedStrength": 60,
 		"range": 8,
-		"cost": 375,
+		"cost": 400,
 		"requiredTech": "Robotics",
 		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Counter Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units>", "[+50]% Strength <vs [Air Helicopter] units>"],
 		"requiredResource": "Aluminum",
