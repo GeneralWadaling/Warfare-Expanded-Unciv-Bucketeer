@@ -236,7 +236,7 @@
 	},
 	{
 		"name": "Counter Battery Tactics",
-		"uniques": ["[+20]% Strength <vs [Siege Ranged] units> <when attacking>","[+10]% Strength <vs [Ranged Heavy] units> <when attacking>"],
+		"uniques": ["[+30]% Strength <vs [Siege Ranged] units> <when attacking>","[+20]% Strength <vs [Ranged Heavy] units> <when attacking>"],
 		"prerequisites": ["Fortified Battery", "Volley"],
 		"unitTypes": ["Ranged Heavy"]
 	},
