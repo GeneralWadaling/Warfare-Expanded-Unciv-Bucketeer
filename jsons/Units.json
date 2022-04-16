@@ -1366,11 +1366,11 @@
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 25,
-		"cost": 200,
+		"cost": 220,
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
