@@ -200,6 +200,21 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Longship",
+		"unitType": "Naval Melee",
+		"uniqueTo": "Denmark",
+		"replaces": "Galley",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Heals [10] damage if it kills an Unit"],
+		"upgradesTo": "Cog",
+		"promotions": ["Coastal Raider"],
+		"obsoleteTech": "Compass",
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Pirate Galley",
 		"unitType": "Naval Melee",
 		"uniqueTo": "Barbarians",
@@ -740,7 +755,7 @@
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
 		"attackSound": "horse"
 	},
 	{
@@ -943,7 +958,7 @@
 		"cost": 120,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
-		"upgradesTo": "Bombard",
+		"upgradesTo": "Bombard Cannon",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
 		"attackSound": "throw"
 	},
@@ -958,7 +973,7 @@
 		"cost": 120,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
-		"upgradesTo": "Bombard",
+		"upgradesTo": "Bombard Cannon",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
@@ -1237,7 +1252,7 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Mounted Rifleman",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
 		"attackSound": "horse"
 	},
 	{
@@ -1332,12 +1347,26 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Bombard",
+		"name": "Bombard Cannon",
 		"unitType": "Siege Ranged",
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 20,
 		"cost": 185,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Great Bombard",
+		"unitType": "Siege Ranged",
+		"uniqueTo": "The Ottomans",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 25,
+		"cost": 200,
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
@@ -1864,6 +1893,17 @@
 			"May withdraw before melee ([70]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
+	{
+		"name": "Modern Pirate",
+		"unitType": "Naval Raider",
+		"uniqueTo": "Barbarians",
+		"movement": 7,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "shipguns"
+	},
 
 	// Atomic Era
 	{
@@ -2362,6 +2402,22 @@
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
+			"Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Aegis Cruiser",
+		"unitType": "Naval Ranged",
+		"uniqueTo": "America",
+		"movement": 7,
+		"strength": 75,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
 			"Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
