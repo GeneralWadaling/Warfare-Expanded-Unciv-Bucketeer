@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Infantry", "Marines", "Anti Cavalry", "Recon", "Paratrooper", "Ranged Heavy", "Ranged Support", "Siege Melee", "Siege Ranged", "Heavy Cavalry", "Light Cavalry", "Ranged Cavalry", "Counter Cavalry", "Anti Air", "Naval Melee", "Naval Ranged", "Naval Siege", "Naval Carrier", "Naval Raider", "Naval Submarine", "Air Fighter", "Air Bomber", "Air Close Air Support", "Air Helicopter", "Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
+		"unitTypes": ["Infantry", "Marines", "Anti Cavalry", "Recon", "Paratrooper", "Ranged Heavy", "Ranged Support", "Siege Melee", "Siege Ranged", "Heavy Cavalry", "Light Cavalry", "Ranged Cavalry", "Counter Cavalry", "Anti Air", "Naval Melee", "Naval Ranged", "Naval Siege", "Naval Carrier", "Naval Raider", "Naval Submarine", "Air Fighter", "Air Fighter Drone", "Air Bomber", "Air Close Air Support", "Air Close Air Support Drone", "Air Helicopter", "Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine", "Militia"]
 	},
 
 	//Infantry
@@ -183,18 +183,18 @@
 	},
 	{
 		"name": "Defender I",
-		"uniques": ["[+20%] Strength <when defending>", "[+25]% XP gained from combat"],
+		"uniques": ["[+20]% Strength <when defending>", "[+25]% XP gained from combat"],
 		"unitTypes": ["Militia"]
 	},
 	{
 		"name": "Battlefield Survival II",
-		"uniques": ["Heals [20] damage if it kills an Unit", "[+20%] Strength <when attacking>"],
+		"uniques": ["Heals [20] damage if it kills a Unit", "[+20]% Strength <when attacking>"],
 		"prerequisites": ["Battlefield Survival I", "Defender I"],
 		"unitTypes": ["Militia"]
 	},
 	{
 		"name": "Defender II",
-		"uniques": ["All adjacent units heal [10] extra HP when healing", "[+30%] Strength <when defending>"],
+		"uniques": ["All adjacent units heal [10] extra HP when healing", "[+30]% Strength <when defending>"],
 		"prerequisites": ["Battlefield Survival I", "Defender I"],
 		"unitTypes": ["Militia"]
 	},

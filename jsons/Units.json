@@ -219,7 +219,7 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Heals [10] damage if it kills an Unit"],
+		"uniques": ["Cannot enter ocean tiles", "Heals [10] damage if it kills a Unit"],
 		"upgradesTo": "Cog",
 		"promotions": ["Coastal Raider"],
 		"obsoleteTech": "Compass",
@@ -2414,7 +2414,7 @@
 		"rangedStrength": 50,
 		"cost": 400,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Can move after attacking", "Heals [15] damage if it kills an Unit", "No defensive terrain bonus"],
+		"uniques": ["Can move after attacking", "Heals [15] damage if it kills a Unit", "No defensive terrain bonus"],
 		"attackSound": "Machine Gun"
 	},
 	{

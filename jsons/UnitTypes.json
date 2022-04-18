@@ -36,7 +36,7 @@
     },
     {
         "name": "Militia",
-	"uniques": ["[+30]% to Flank Attack bonuses", "Excess Food converted to Production when under construction"],
+	"uniques": ["[+50]% to Flank Attack bonuses", "Can build [Trench] improvements on tiles", "Can build [Fort] improvements on tiles", "[+50]% Strength when stacked with [Worker]"],
         "movementType": "Land"
     },
 
