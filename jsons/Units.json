@@ -25,9 +25,20 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Explorer",
 		"obsoleteTech": "Compass",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Levies",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 5,
+		"cost": 15,
+		"uniques": ["May upgrade to [Warrior] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"upgradesTo": "Citizen Militia",
+		"obsoleteTech": "Mathematics",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -310,7 +321,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Heavy Infantry",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -324,7 +335,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Heavy Infantry",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+30]% Strength <vs [Mounted] units>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
@@ -339,7 +350,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -383,6 +394,18 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Citizen Militia",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 8,
+		"cost": 30,
+		"uniques": ["May upgrade to [Heavy Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"upgradesTo": "Armed Peasants",
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Civil Service",
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Hoplite",
@@ -686,10 +709,22 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Pike and Shot",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit" 
+	},
+	{
+		"name": "Armed Peasants",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 12,
+		"cost": 40,
+		"uniques": ["May upgrade to [Pikeman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"upgradesTo": "Militiaman",
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Printing Press",
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Landsknecht",
@@ -700,7 +735,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
+		"uniques": ["[+30]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Pike and Shot",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -781,7 +816,7 @@
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Lancer",
 		"requiredResource": "Horses",
-		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "[+30]% Strength <vs [Mounted] units>"],
 		"attackSound": "horse"
 	},
 	{
@@ -859,7 +894,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+30]% Strength <vs [Mounted] units>"],
 		"attackSound": "horse"
 	},
 	{
@@ -1089,6 +1124,33 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Militiaman",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 15,
+		"cost": 70,
+		"uniques": ["May upgrade to [Musketman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"upgradesTo": "Armed Workers",
+		"requiredTech": "Printing Press",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Minuteman",
+		"unitType": "Militia",
+		"replaces": "Militiaman",
+		"uniqueTo": "America",
+		"movement": 3,
+		"strength": 18,
+		"cost": 40,
+		"requiredTech": "Printing Press",
+		"upgradesTo": "Armed Workers",
+		"obsoleteTech": "Industrialization",
+		"uniques": ["Ignores terrain cost", "May upgrade to [Musketman] through ruins-like effects", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>", "Can move immediately once bought"],
+		"promotions": ["[Minuteman] ability"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Musketeer",
 		"unitType": "Infantry",
 		"replaces": "Musketman",
@@ -1116,21 +1178,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Minuteman",
-		"unitType": "Infantry",
-		"replaces": "Musketman",
-		"uniqueTo": "America",
-		"movement": 2,
-		"strength": 26,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Light Infantry",
-		"obsoleteTech": "Rifling",
-		"uniques": ["Ignores terrain cost"],
-		"promotions": ["[Minuteman] ability"],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Pike and Shot",
 		"unitType": "Anti Cavalry",
 		"movement": 2,
@@ -1139,7 +1186,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1153,7 +1200,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1237,7 +1284,7 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit", "[+30]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1294,7 +1341,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>",
-			"[+1] Sight"],
+			"[+1] Sight", "[+30]% Strength <vs [Mounted] units>"],
 		"promotions": ["[Sipahi] ability"],
 		"upgradesTo": "Tank Destroyer",
 		"obsoleteTech": "Combined Arms",
@@ -1363,6 +1410,7 @@
 		"name": "Great Bombard",
 		"unitType": "Siege Ranged",
 		"uniqueTo": "The Ottomans",
+		"replaces": "Bombard Cannon",
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 25,
@@ -1447,6 +1495,18 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Armed Workers",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 20,
+		"cost": 100,
+		"uniques": ["May upgrade to [Light Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"upgradesTo": "Draftee",
+		"requiredTech": "Industrialization",
+		"obsoleteTech": "Radio",
 		"attackSound": "shot"
 	},
 	{
@@ -1650,6 +1710,18 @@
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
+		"obsoleteTech": "Pharmaceuticals",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Draftee",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 35,
+		"cost": 100,
+		"uniques": ["May upgrade to [Great War Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"upgradesTo": "Conscripts",
+		"requiredTech": "Radio",
 		"obsoleteTech": "Pharmaceuticals",
 		"attackSound": "shot"
 	},
@@ -1877,7 +1949,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "[+30]% Strength <vs [Armored] units>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1983,6 +2055,18 @@
 		"cost": 375,
 		"requiredTech": "Pharmaceuticals",
 		"upgradesTo": "Modern Infantry",
+		"obsoleteTech": "Telecommunications",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Conscripts",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 45,
+		"cost": 100,
+		"uniques": ["May upgrade to [Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
+		"upgradesTo": "Irregulars",
+		"requiredTech": "Pharmaceuticals",
 		"obsoleteTech": "Telecommunications",
 		"attackSound": "shot"
 	},
@@ -2112,7 +2196,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Tank Destroyer",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+30]% Strength <vs [Armored] units>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -2292,6 +2376,16 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Irregulars",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 55,
+		"cost": 100,
+		"uniques": ["May upgrade to [Modern Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
+		"requiredTech": "Telecommunications",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Modern Marine",
 		"unitType": "Marines",
 		"movement": 2,
@@ -2330,7 +2424,7 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "[+30]% Strength <vs [Armored] units>"],
 		"attackSound": "missile"
 	},
 	{
@@ -2373,7 +2467,7 @@
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+30]% Strength <vs [Armored] units>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -2410,6 +2504,7 @@
 		"name": "Aegis Cruiser",
 		"unitType": "Naval Ranged",
 		"uniqueTo": "America",
+		"replaces": "Missile Cruiser",
 		"movement": 7,
 		"strength": 75,
 		"rangedStrength": 100,

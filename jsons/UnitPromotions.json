@@ -127,7 +127,7 @@
 	},
 	{
 		"name": "Endurance",
-		"uniques": ["[+10]% Strength <when defending>", "[+10] HP when healing"],
+		"uniques": ["[+30]% Strength <when defending>", "[+10] HP when healing"],
 		"prerequisites": ["Rapid Redeployment", "Anti Cavalry Suppression"],
 		"unitTypes": ["Anti Cavalry"]
 	},
@@ -173,6 +173,36 @@
 		"uniques": ["Invisible to non-adjacent units"],
 		"prerequisites": ["Sneak Attack", "Battle Recon"],
 		"unitTypes": ["Recon"]
+	},
+
+	//Militia
+	{
+		"name": "Battlefield Survival I",
+		"uniques": ["Unit will heal every turn, even if it performs an action", "[+10] HP when healing", "[+25]% XP gained from combat"],
+		"unitTypes": ["Militia"]
+	},
+	{
+		"name": "Defender I",
+		"uniques": ["[+20%] Strength <when defending>", "[+25]% XP gained from combat"],
+		"unitTypes": ["Militia"]
+	},
+	{
+		"name": "Battlefield Survival II",
+		"uniques": ["Heals [20] damage if it kills an Unit", "[+20%] Strength <when attacking>"],
+		"prerequisites": ["Battlefield Survival I", "Defender I"],
+		"unitTypes": ["Militia"]
+	},
+	{
+		"name": "Defender II",
+		"uniques": ["All adjacent units heal [10] extra HP when healing", "[+30%] Strength <when defending>"],
+		"prerequisites": ["Battlefield Survival I", "Defender I"],
+		"unitTypes": ["Militia"]
+	},
+	{
+		"name": "Special Promotion",
+		"uniques": ["unit upgrades for free", "[+80]% Strength", "[+2] Movement <in [Foreign Land] tiles>", "[-1] Movement", "[+50]% maintenance costs", "[+200]% Strength <when fighting in [Foreign Land] tiles>"],
+		"prerequisites": ["Battlefield Survival II", "Defender II"],
+		"unitTypes": ["Militia"]
 	},
 
 	//Paratrooper
@@ -601,6 +631,11 @@
 		"unitTypes": ["Naval Melee"]
 	},
 	{
+		"name": "Coastal Assault",
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Naval Melee"]
+	},
+	{
 		"name": "Reinforced Hull",
 		"uniques": ["[+25]% Strength <vs [Ranged] units>"],
 		"prerequisites": ["Ramming"],
@@ -718,7 +753,7 @@
 	//Naval Raider and Submarine
 	{
 		"name": "Coastal Raider",
-		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+40]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Naval Raider"]
 	},
 	{
@@ -1064,7 +1099,7 @@
 	},
 	{
 		"name": "[Samurai] ability",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"]
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"]
 	},
 	{
 		"name": "[Berserker] ability",
@@ -1072,7 +1107,7 @@
 	},
 	{
 		"name": "[Minuteman] ability",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"]
+		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"]
 	},
 	{
 		"name": "[Hussar] ability",

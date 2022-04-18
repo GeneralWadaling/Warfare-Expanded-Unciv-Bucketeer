@@ -17,7 +17,7 @@
     },
     {
         "name": "Marines",
-        "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
+        "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
         "movementType": "Land"
     },
     {
@@ -27,11 +27,16 @@
     },
     {
         "name": "Recon",
-	"uniques": ["All tiles cost 1 movement"],
+	"uniques": ["Ignores terrain cost"],
         "movementType": "Land"
     },
     {
         "name": "Paratrooper",
+        "movementType": "Land"
+    },
+    {
+        "name": "Militia",
+	"uniques": ["[+30]% to Flank Attack bonuses", "Excess Food converted to Production when under construction"],
         "movementType": "Land"
     },
 
