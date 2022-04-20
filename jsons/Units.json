@@ -2241,7 +2241,7 @@
 	},
 	{
 		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
+		"unitType": "Air Atomic Bomber",
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
@@ -2270,6 +2270,20 @@
 		"attackSound": "artillery"
 	},
 	{
+		"name": "Nuke Cannon",
+		"unitType": "Siege Nuke",
+		"uniqueTo": "China",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 80,
+		"range": 3,
+		"cost": 400,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Easter egg unit!", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Will not be displayed in Civilopedia", "Rough terrain penalty"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
 		"name": "Mobile SAM",
 		"unitType": "Anti Air",
 		"movement": 3,
@@ -2282,7 +2296,7 @@
 	},
 	{
 		"name": "Guided Missile",
-		"unitType": "Missile",
+		"unitType": "Air Missile",
 		"movement": 1,
 		"strength": 60,
 		"rangedStrength": 60,
@@ -2293,8 +2307,21 @@
 		"attackSound": "missile"
 	},
 	{
+		"name": "Baguette",
+		"unitType": "Air Missile",
+		"uniqueTo": "France",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 150,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Easter egg unit!", "[-100]% maintenance costs", "Will not be displayed in Civilopedia", "[+300]% Strength <vs [Civilian] units>"],
+		"attackSound": "missile"
+	},
+	{
 		"name": "Nuclear Missile",
-		"unitType": "Missile",
+		"unitType": "Air Nuke Missile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,

@@ -136,12 +136,12 @@
 	//Recon
 	{
 		"name": "Woodlander",
-		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+20]% Strength <when fighting in [Forest] tiles>", "[+20]% Strength <when fighting in [Jungle] tiles>"],
+		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+20]% Strength <in [Forest] tiles>", "[+20]% Strength <in [Jungle] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Highlander",
-		"uniques": ["[+15]% Strength <when fighting in [Hills] tiles>"],
+		"uniques": ["[+15]% Strength <in [Hill] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -200,7 +200,7 @@
 	},
 	{
 		"name": "Special Promotion",
-		"uniques": ["unit upgrades for free", "[+80]% Strength", "[+2] Movement <in [Foreign Land] tiles>", "[-1] Movement", "[+50]% maintenance costs", "[+200]% Strength <when fighting in [Foreign Land] tiles>"],
+		"uniques": ["This Unit upgrades for free including special upgrades"],
 		"prerequisites": ["Battlefield Survival II", "Defender II"],
 		"unitTypes": ["Militia"]
 	},
@@ -381,8 +381,8 @@
 	},
 	{
 		"name": "Crew Weapons",
-		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Siege Ranged"]
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Siege Ranged", "Siege Nuke"]
 	},
 	{
 		"name": "Volatile Munitions",
@@ -394,13 +394,13 @@
 		"name": "Entrenched Position",
 		"uniques": ["[+20]% Strength <vs [Ranged] units> <when defending>"],
 		"prerequisites": ["Crew Weapons"],
-		"unitTypes": ["Siege Ranged"]
+		"unitTypes": ["Siege Ranged", "Siege Nuke"]
 	},
 	{
 		"name": "Flare",
 		"uniques": ["[+2] Sight"],
 		"prerequisites": ["Volatile Munitions", "Entrenched Position"],
-		"unitTypes": ["Siege Ranged"]
+		"unitTypes": ["Siege Ranged", "Siege Nuke"]
 	},
 	{
 		"name": "Coastal Artillery",
@@ -412,7 +412,7 @@
 		"name": "Forward Observers",
 		"uniques": ["[+1] Range"],
 		"prerequisites": ["Flare", "Coastal Artillery"],
-		"unitTypes": ["Siege Ranged"]
+		"unitTypes": ["Siege Ranged", "Siege Nuke"]
 	},
 
 	//Light Cavalry
@@ -1013,6 +1013,40 @@
 		"uniques": ["[+20]% Strength <vs [Wounded] units>", "[+20]% Strength <when attacking>"],
 		"prerequisites": ["Air to Air Weapon", "NOE Maneuver"],
 		"unitTypes": ["Air Helicopter"]
+	},
+
+	//Air Atomic Bomber
+	{
+		"name": "Nuclear Strike Reserve",
+		"uniques": ["[-50]% maintenance costs"],
+		"unitTypes": ["Air Atomic Bomber", "Air Nuke Missile"]
+	},
+	{
+		"name": "Strategic Nuclear Bomber",
+		"uniques": ["[+5] Range"],
+		"unitTypes": ["Air Atomic Bomber"]
+	}
+
+	//Air Missile
+	{
+		"name": "Multistage Thrusters",
+		"uniques": ["[+5] Range"],
+		"unitTypes": ["Air Missile", "Air Nuke Missile"]
+	},
+	{
+		"name": "Heavy Payload",
+		"uniques": ["[+50]% Strength"],
+		"unitTypes": ["Air Missile"]
+	},
+	{
+		"name": "Penetration Bomb",
+		"uniques": ["[+100]% Strength <vs cities>"],
+		"unitTypes": ["Air Missile"]
+	},
+	{
+		"name": "AA Buster",
+		"uniques": ["[+100]% Strength <vs [Anti Air] units>"],
+		"unitTypes": ["Air Missile"]
 	},
 
 

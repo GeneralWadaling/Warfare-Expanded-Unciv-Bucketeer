@@ -69,6 +69,11 @@
 	"uniques": ["[-1] Sight"],
         "movementType": "Land"
     },
+    {
+        "name": "Siege Nuke",
+	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs"],
+        "movementType": "Land"
+    },
 
     //cav
 
@@ -165,6 +170,11 @@
     },
     {
         "name": "Air Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Air Nuke Missile",
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
     },
