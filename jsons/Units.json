@@ -2355,7 +2355,7 @@
 		"rangedStrength": 85,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -2494,7 +2494,7 @@
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Must set up to ranged attack",
-			"Can carry [1] [Missile] units", "Never appears as a Barbarian unit"],
+			"Can carry [1] [Air Nuke Missile] units", "Can carry [2] [Air Missile] units" "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -2509,7 +2509,7 @@
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
-			"Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -2526,7 +2526,7 @@
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units",
-			"Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -2537,10 +2537,10 @@
 		"strength": 80,
 		"rangedStrength": 100,
 		"range": 3,
-		"cost": 425,
+		"cost": 500,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Aluminum",
-		"uniques": ["Can carry [4] [Missile] units", "Never appears as a Barbarian unit"],
+		"uniques": ["Can carry [5] [Air Missile] units", "Can carry [2] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},

@@ -1174,6 +1174,6 @@
 	},
 	{
 		"name": "UAV",
-		"uniques": ["[-50]% maintenance costs"]
+		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%"]
 	}
 ]
