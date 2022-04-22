@@ -895,7 +895,7 @@
 	},
 	{
 		"name": "Tank Buster",
-		"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
+		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"prerequisites": ["Torpedo Bomber", "Cockpit Armor"],
 		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
 	},
@@ -1174,6 +1174,6 @@
 	},
 	{
 		"name": "UAV",
-		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%"]
+		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength when stacked with [Siege Carrier]"]
 	}
 ]
