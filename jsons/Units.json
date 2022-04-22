@@ -2494,7 +2494,7 @@
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Must set up to ranged attack",
-			"Can carry [1] [Air Nuke Missile] units", "Can carry [2] [Air Missile] units" "Never appears as a Barbarian unit"],
+			"Can carry [1] [Air Nuke Missile] units", "Can carry [2] [Air Missile] units", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
