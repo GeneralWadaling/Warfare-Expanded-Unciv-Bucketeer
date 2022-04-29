@@ -144,11 +144,6 @@
         "movementType": "Air"
     },
     {
-        "name": "Air Fighter Drone",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"],
-        "movementType": "Air"
-    },
-    {
         "name": "Air Bomber",
         "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
         "movementType": "Air"
@@ -159,8 +154,8 @@
         "movementType": "Air"
     },
     {
-        "name": "Air Close Air Support Drone",
-        "uniques": ["Aircraft"],
+        "name": "Air Drone",
+        "uniques": ["Aircraft", "Can see over obstacles", "[+2] Sight"],
         "movementType": "Air"
     },
     {

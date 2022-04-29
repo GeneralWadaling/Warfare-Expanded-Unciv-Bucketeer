@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Infantry", "Marines", "Anti Cavalry", "Recon", "Paratrooper", "Ranged Heavy", "Ranged Support", "Siege Melee", "Siege Ranged", "Heavy Cavalry", "Light Cavalry", "Ranged Cavalry", "Counter Cavalry", "Anti Air", "Naval Melee", "Naval Ranged", "Naval Siege", "Naval Carrier", "Naval Raider", "Naval Submarine", "Air Fighter", "Air Fighter Drone", "Air Bomber", "Air Close Air Support", "Air Close Air Support Drone", "Air Helicopter", "Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine", "Militia"]
+		"unitTypes": ["Infantry", "Marines", "Anti Cavalry", "Recon", "Paratrooper", "Ranged Heavy", "Ranged Support", "Siege Melee", "Siege Ranged", "Heavy Cavalry", "Light Cavalry", "Ranged Cavalry", "Counter Cavalry", "Anti Air", "Naval Melee", "Naval Ranged", "Naval Siege", "Naval Carrier", "Naval Raider", "Naval Submarine", "Air Fighter", "Air Bomber", "Air Close Air Support", "Air Helicopter", "Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine", "Militia"]
 	},
 
 	//Infantry
@@ -141,7 +141,7 @@
 	},
 	{
 		"name": "Highlander",
-		"uniques": ["[+15]% Strength <in [Hill] tiles>"],
+		"uniques": ["[+20]% Strength <in [Hill] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -843,91 +843,91 @@
 	{
 		"name": "Dogfighting",
 		"uniques": ["[+30]% Strength <vs [Air Fighter] units>"],
-		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
+		"unitTypes": ["Air Fighter"]
 	},
 	{
 		"name": "Interception Countermeasure",
 		"uniques": ["Damage taken from interception reduced by [50]%"],
-		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
+		"unitTypes": ["Air Fighter"]
 	},
 	{
 		"name": "Interceptor",
-		"uniques": ["[+30]% Strength <vs [Air Close Air Support] units>", "[+50]% Strength <vs [Air Bomber] units>"],
+		"uniques": ["[+20]% Damage when intercepting", "[+30]% Strength <vs [Air Bomber] units>"],
 		"prerequisites": ["Dogfighting", "Interception Countermeasure"],
-		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
+		"unitTypes": ["Air Fighter"]
 	},
 	{
 		"name": "Strafe",
 		"uniques": ["[+25]% Strength <vs [non-air] units>"],
 		"prerequisites": ["Dogfighting", "Interception Countermeasure"],
-		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
+		"unitTypes": ["Air Fighter"]
 	},
 	{
 		"name": "Sortie",
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"prerequisites": ["Interceptor"],
-		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
+		"unitTypes": ["Air Fighter"]
 	},
 	{
 		"name": "Fast Resupply",
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"prerequisites": ["Strafe"],
-		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
+		"unitTypes": ["Air Fighter"]
 	},
 	{
 		"name": "Ace Fighter Squadron",
 		"uniques": ["[+25]% Strength", "[+2] Range"],
 		"prerequisites": ["Sortie", "Fast Resupply"],
-		"unitTypes": ["Air Fighter", "Air Fighter Drone"]
+		"unitTypes": ["Air Fighter"]
 	},
 
 
 	//Air Close Air Support
 	{
 		"name": "Torpedo Bomber",
-		"uniques": ["[+20]% Strength <vs [Naval] units>"],
-		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "Cockpit Armor",
 		"uniques": ["Damage taken from interception reduced by [30]%"],
-		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "Tank Buster",
 		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"prerequisites": ["Torpedo Bomber", "Cockpit Armor"],
-		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "SEAD",
 		"uniques": ["Damage taken from interception reduced by [20]%", "[+25]% Strength <vs [Anti Air] units>"],
 		"prerequisites": ["Cockpit Armor"],
-		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "Precision Bombing",
 		"uniques": ["[+20]% Strength <vs [Land] units>"],
 		"prerequisites": ["Torpedo Bomber", "Cockpit Armor"],
-		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "Experienced Ground Crew",
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD"],
-		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "Bunker Buster",
 		"uniques": ["[+25]% Strength <vs cities>"],
 		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD"],
-		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "Ace Bomber Squadron",
 		"uniques": ["[1] additional attacks per turn", "[+2] Range"],
 		"prerequisites": ["Experienced Ground Crew", "Bunker Buster"],
-		"unitTypes": ["Air Close Air Support", "Air Close Air Support Drone"]
+		"unitTypes": ["Air Close Air Support"]
 	},
 
 
@@ -944,7 +944,7 @@
 	},
 	{
 		"name": "Naval Patrol Aircraft",
-		"uniques": ["[+25]% Strength <vs [Naval] units>"],
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
 		"prerequisites": ["Carpet Bombing", "Evasive Maneuver"],
 		"unitTypes": ["Air Bomber"]
 	},
@@ -1047,6 +1047,48 @@
 		"name": "AA Buster",
 		"uniques": ["[+100]% Strength <vs [Anti Air] units>"],
 		"unitTypes": ["Air Missile"]
+	},
+
+	//Air Drone
+	{
+		"name": "Recon UAV",
+		"uniques": ["[+4] Sight", "Can see invisible [All] units"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Attack UAV",
+		"uniques": ["[+30]% Strength <vs [non-air] units>"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "UAV Support",
+		"uniques": ["Bonus for units in 2 tile radius 15%"],
+		"prerequisites": ["Recon UAV"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Extra Hardpoints",
+		"uniques": ["[+50]% Strength <vs [non-air] units>"],
+		"prerequisites": ["Attack UAV"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Air Cover Support",
+		"uniques": ["[70]% chance to intercept air attacks", "[+50]% Damage when intercepting"],
+		"prerequisites": ["UAV Support"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Stealth Coating",
+		"uniques": ["Cannot be intercepted"],
+		"prerequisites": ["Extra Hardpoints"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Enhanced AI Control",
+		"uniques": ["[+30]% Strength", "[+4] Range"],
+		"prerequisites": ["Air Cover Support", "Stealth Coating"],
+		"unitTypes": ["Air Drone"]
 	},
 
 

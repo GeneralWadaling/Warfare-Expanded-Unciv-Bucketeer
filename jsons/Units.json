@@ -1260,6 +1260,23 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Treasure Ship",
+		"unitType": "Naval Siege",
+		"uniqueTo": "China",
+		"replaces": "Ship of the Line",
+		"movement": 5,
+		"strength": 32,
+		"rangedStrength": 32,
+		"cost": 210,
+		"requiredResource": "Iron",
+		"uniques": ["Never appears as a Barbarian unit", "Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence"],
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Monitor",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Royal Navy Ship of the Line",
 		"unitType": "Naval Siege",
 		"replaces": "Ship of the Line",
@@ -1665,7 +1682,7 @@
 		"cost": 250,
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
-		"upgradesTo": "Light Cruiser",
+		"upgradesTo": "Battleship",
 		"obsoleteTech": "Combustion",
 		"promotions": ["Indirect Fire"],
 		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit"],
@@ -1961,7 +1978,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Frigate",
-		"uniques": ["Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units", "[40]% chance to intercept air attacks",
+		"uniques": ["Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units", "[60]% chance to intercept air attacks",
 			"May withdraw before melee ([70]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
@@ -2270,6 +2287,20 @@
 		"attackSound": "artillery"
 	},
 	{
+		"name": "Nuke Cannon",
+		"unitType": "Siege Nuke",
+		"uniqueTo": "China",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 80,
+		"range": 3,
+		"cost": 400,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Easter egg unit!", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Will not be displayed in Civilopedia", "Rough terrain penalty"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
 		"name": "Mobile SAM",
 		"unitType": "Anti Air",
 		"movement": 3,
@@ -2365,7 +2396,7 @@
 		"strength": 60,
 		"cost": 375,
 		"requiredTech": "Robotics",
-		"uniques": ["Cannot attack", "Can carry [1] [Air Fighter Drone] units", "Can carry [1] [Air Close Air Support Drone] units", "Never appears as a Barbarian unit"]
+		"uniques": ["Cannot attack", "Can carry [2] [Air Drone] units", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Modern SPG",
@@ -2597,30 +2628,15 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Recon UAV",
-		"unitType": "Air Fighter Drone",
+		"name": "UAV",
+		"unitType": "Air Drone",
 		"movement": 1,
-		"strength": 40,
-		"rangedStrength": 50,
+		"strength": 50,
+		"rangedStrength": 70,
 		"range": 10,
 		"interceptRange": 8,
 		"cost": 375,
 		"requiredTech": "Robotics",
-		"requiredResource": "Aluminum",
-		"uniques": ["[70]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>", "[+50]% Strength <vs [Air Helicopter] units>", "[+4] Sight"],
-		"promotions": ["UAV"],
-		"attackSound": "jetgun"
-	},
-	{
-		"name": "Attack UAV",
-		"unitType": "Air Close Air Support Drone",
-		"movement": 1,
-		"strength": 40,
-		"rangedStrength": 65,
-		"range": 8,
-		"cost": 400,
-		"requiredTech": "Robotics",
-		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Counter Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units>", "[+50]% Strength <vs [Air Helicopter] units>"],
 		"requiredResource": "Aluminum",
 		"promotions": ["UAV"],
 		"attackSound": "jetgun"
