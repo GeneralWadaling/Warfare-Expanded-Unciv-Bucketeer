@@ -843,7 +843,7 @@
 	{
 		"name": "Dogfighting",
 		"uniques": ["[+30]% Strength <vs [Air Fighter] units>"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Close Air Support"]
 	},
 	{
 		"name": "Interception Countermeasure",
@@ -854,7 +854,7 @@
 		"name": "Interceptor",
 		"uniques": ["[+20]% Damage when intercepting", "[+30]% Strength <vs [Air Bomber] units>"],
 		"prerequisites": ["Dogfighting", "Interception Countermeasure"],
-		"unitTypes": ["Air Fighter"]
+		"unitTypes": ["Air Fighter", "Air Close Air Support"]
 	},
 	{
 		"name": "Strafe",
@@ -914,13 +914,13 @@
 	{
 		"name": "Experienced Ground Crew",
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD"],
+		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD", "Interceptor"],
 		"unitTypes": ["Air Close Air Support"]
 	},
 	{
 		"name": "Bunker Buster",
 		"uniques": ["[+25]% Strength <vs cities>"],
-		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD"],
+		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD", "Interceptor"],
 		"unitTypes": ["Air Close Air Support"]
 	},
 	{
@@ -1062,7 +1062,7 @@
 	},
 	{
 		"name": "UAV Support",
-		"uniques": ["Bonus for units in 2 tile radius 15%"],
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"],
 		"prerequisites": ["Recon UAV"],
 		"unitTypes": ["Air Drone"]
 	},

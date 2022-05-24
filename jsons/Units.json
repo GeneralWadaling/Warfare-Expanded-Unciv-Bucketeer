@@ -2024,7 +2024,7 @@
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
-		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
+		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Air Missile] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Commando",
@@ -2719,7 +2719,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -2728,7 +2728,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%",
+		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
 	},
