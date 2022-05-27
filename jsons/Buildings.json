@@ -1,5 +1,34 @@
 [
 	{
+		"name": "Circus Maximus",
+		"cost": 125,
+		"happiness": 5,
+		"specialistSlots": {"Entertainer": 2},
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Terracotta Army",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Construction",
+		"uniques": ["[2] free [Spearman] units appear", "[2] free [Composite Bowman] units appear"]
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	{
+		"name": "Alhambra",
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"uniques": ["All newly-trained [{Land} {Melee}] units [in this city] receive the [Drill] promotion",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Chivalry",
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
+	},	
+	{
 		"name": "Arsenal",
 		"cost": 300,
 		"cityStrength": 9,
@@ -8,5 +37,62 @@
 		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
 		"uniques": ["Destroyed when the city is captured", "[2] free [Militiaman] units appear"]
+	},
+	{
+		"name": "Theatre",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"specialistSlots": {"Entertainer": 1},
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Stadium",
+		"happiness": 4,
+		"specialistSlots": {"Entertainer": 1},
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Military Research Bureau",
+		"cost": 125,
+		"science": 4,
+		"isNationalWonder": true,
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
+	},
+	{
+		"name": "Skunkworks",
+		"isWonder": true,
+		"science": 6,
+		"production": 6,
+		"isNationalWonder": true,
+		"requiredTech": "Computers",
+		"uniques": ["Provides [3] [Secret Project]"]
+	},
+	{
+		"name": "Cloning Facility",
+		"food": -6,
+		"science": 4,
+		"isNationalWonder": true,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"]
+	},
+	{
+		"name": "ARENA Defense System",
+		"isNationalWonder": true,
+		"requiredTech": "Lasers",
+		"cityStrength": 30,
+		"cityHealth": 50,
+		"uniques": ["Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"]
+	},
+	{
+		"name": "Iron Curtain",
+		"isNationalWonder": true,
+		"requiredTech": "Nanotechnology",
+		"cityHealth": 300,
+		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"]
 	}
 ]

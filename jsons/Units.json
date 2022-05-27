@@ -1474,7 +1474,7 @@
 		"uniques": ["All adjacent units heal [10] extra HP when healing"],
 		"cost": 275,
 		"requiredTech": "Biology",
-		"upgradesTo": "Ambulance",
+		"upgradesTo": "Supply Truck",
 		"obsoleteTech": "Pharmaceuticals"
 	},
 	{
@@ -1656,6 +1656,17 @@
 		"upgradesTo": "Submarine",
 		"obsoleteTech": "Refrigeration",
 		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Land Dreadnought",
+		"unitType": "Heavy Cavalry",
+		"movement": 1,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Normal vision when embarked", "Defense bonus when embarked", "No defensive terrain bonus", "Eliminates combat penalty for attacking from the sea", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [3] [Coal]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2008,10 +2019,10 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Ambulance",
+		"name": "Supply Truck",
 		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["All adjacent units heal [25] extra HP when healing"],
+		"movement": 3,
+		"uniques": ["All adjacent units heal [25] extra HP when healing", "Transfer Movement to [Military]"],
 		"cost": 450,
 		"requiredTech": "Pharmaceuticals"
 	},
@@ -2205,6 +2216,17 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Superheavy Tank",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 80,
+		"cost": 600,
+		"requiredTech": "Combined Arms",
+		"obsoleteTech": "Lasers",
+		"uniques": ["Ignores Zone of Control", "No defensive terrain bonus", "[+25]% Strength <when defending> <vs [Ranged] units>", "Consumes [2] [Oil]", "Can move after attacking", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Tank Destroyer",
 		"unitType": "Counter Cavalry",
 		"movement": 5,
@@ -2289,14 +2311,13 @@
 	{
 		"name": "Nuke Cannon",
 		"unitType": "Siege Nuke",
-		"uniqueTo": "China",
 		"movement": 2,
 		"strength": 45,
-		"rangedStrength": 80,
+		"rangedStrength": 50,
 		"range": 3,
 		"cost": 400,
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["Easter egg unit!", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Will not be displayed in Civilopedia", "Rough terrain penalty"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Rough terrain penalty"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -2666,6 +2687,31 @@
 		"attackSound": "gdrAttack"
 	},
 	{
+		"name": "Apoclaypse Missile",
+		"unitType": "Air Nuke Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1500,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
+			"Blast radius [5]", "Consumes [3] [Uranium]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Orbital Strike Satellite",
+		"unitType": "Air Satellite",
+		"movement": 0,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 50,
+		"cost": 3000,
+		"requiredTech": "Satellites",
+		"uniques": ["Only available <if [Apollo Program] is constructed>", "Consumes [3] [Oil]", "Consumes [5] [Aluminum]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"],
+		"attackSound": "gdrAttack"
+	},
+	{
 		"name": "Stealth Bomber",
 		"unitType": "Air Bomber",
 		"movement": 2,
@@ -2674,7 +2720,7 @@
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "Stealth",
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Naval Carrier] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
 		"attackSound": "bombing"
 	},
 

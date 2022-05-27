@@ -178,6 +178,11 @@
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"]
     },
+    {
+        "name": "Air Satellite",
+        "movementType": "Air",
+        "uniques": ["Cannot be intercepted"]
+    },
 
 
 
