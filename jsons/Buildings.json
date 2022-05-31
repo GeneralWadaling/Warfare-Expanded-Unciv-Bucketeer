@@ -74,25 +74,28 @@
 	},
 	{
 		"name": "Cloning Facility",
+		"cost": 1000,
 		"food": -6,
 		"science": 4,
 		"isNationalWonder": true,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"]
+		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
 	},
 	{
 		"name": "ARENA Defense System",
+		"cost": 1500,
 		"isNationalWonder": true,
 		"requiredTech": "Lasers",
 		"cityStrength": 30,
 		"cityHealth": 50,
-		"uniques": ["Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"]
+		"uniques": ["Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
 	},
 	{
 		"name": "Iron Curtain",
+		"cost": 2000,
 		"isNationalWonder": true,
-		"requiredTech": "Nanotechnology",
-		"cityHealth": 300,
-		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]", "All newly-trained [Heavy Cavalry] units [in this city] receive the [Iron Curtain Force Field] promotion", "All newly-trained [Light Cavalry] units [in this city] receive the [Iron Curtain Force Field] promotion"]
+		"requiredTech": "Particle Physics",
+		"cityHealth": 200,
+		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "All newly-trained [Heavy Cavalry] units [in this city] receive the [Iron Curtain Force Field] promotion", "All newly-trained [Light Cavalry] units [in this city] receive the [Iron Curtain Force Field] promotion"]
 	}
 ]

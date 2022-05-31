@@ -1666,7 +1666,7 @@
 		"cost": 425,
 		"requiredTech": "Steam Power",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked", "No defensive terrain bonus", "Eliminates combat penalty for attacking from the sea", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [3] [Coal]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]", "Never appears as a Barbarian unit"],
+		"uniques": ["Normal vision when embarked", "Defense bonus when embarked", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [3] [Coal]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2221,9 +2221,9 @@
 		"movement": 4,
 		"strength": 80,
 		"cost": 600,
-		"requiredTech": "Combined Arms",
+		"requiredTech": "Combustion",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Ignores Zone of Control", "No defensive terrain bonus", "[+25]% Strength <when defending> <vs [Ranged] units>", "Consumes [2] [Oil]", "Can move after attacking", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]", "Never appears as a Barbarian unit"],
+		"uniques": ["Ignores Zone of Control", "No defensive terrain bonus", "[+25]% Strength <when defending> <vs [Ranged] units>", "Consumes [2] [Oil]", "Can move after attacking", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2621,6 +2621,19 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Stealth Tank",
+		"unitType": "Heavy Cavalry",
+		"movement": 5,
+		"strength": 80,
+		"rangedStrength": 110,
+		"range": 1,
+		"cost": 525,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Jet Interceptor",
 		"unitType": "Air Fighter",
 		"movement": 1,
@@ -2696,7 +2709,7 @@
 		"cost": 1500,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-			"Blast radius [4]", "Consumes [3] [Uranium]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"],
+			"Blast radius [4]", "Consumes [3] [Uranium]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
 		"attackSound": "nuke"
 	},
 	{
@@ -2708,7 +2721,7 @@
 		"range": 50,
 		"cost": 2000,
 		"requiredTech": "Satellites",
-		"uniques": ["Only available <if [Apollo Program] is constructed>", "Consumes [3] [Oil]", "Consumes [5] [Aluminum]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Not displayed as an available construction without [Secret Project]"],
+		"uniques": ["Only available <if [Apollo Program] is constructed>", "Consumes [3] [Oil]", "Consumes [5] [Aluminum]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
 		"attackSound": "gdrAttack"
 	},
 	{

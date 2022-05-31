@@ -1052,7 +1052,7 @@
 	//Air Drone
 	{
 		"name": "Recon UAV",
-		"uniques": ["[+4] Sight", "Can see invisible [All] units"],
+		"uniques": ["[+4] Sight"],
 		"unitTypes": ["Air Drone"]
 	},
 	{

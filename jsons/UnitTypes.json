@@ -27,7 +27,7 @@
     },
     {
         "name": "Recon",
-	"uniques": ["Ignores terrain cost"],
+	"uniques": ["Ignores terrain cost", "Can see invisible [Land] units"],
         "movementType": "Land"
     },
     {
