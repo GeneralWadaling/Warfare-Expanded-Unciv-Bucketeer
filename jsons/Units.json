@@ -321,7 +321,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Heavy Infantry",
-		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+35]% Strength <vs [Heavy Cavalry] units>", "[+35]% Strength <vs [Light Cavalry] units>", "[+35]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+35]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -335,7 +335,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Heavy Infantry",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+20]% Strength <vs [Heavy Cavalry] units>", "[+20]% Strength <vs [Light Cavalry] units>", "[+20]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+20]% Strength <vs [Counter Cavalry] units>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
@@ -350,7 +350,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -392,7 +392,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+35]% Strength <vs [Heavy Cavalry] units>", "[+35]% Strength <vs [Light Cavalry] units>", "[+35]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+35]% Strength <vs [Counter Cavalry] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -418,7 +418,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+35]% Strength <vs [Heavy Cavalry] units>", "[+35]% Strength <vs [Light Cavalry] units>", "[+35]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+35]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -432,7 +432,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+35]% Strength <vs [Heavy Cavalry] units>", "[+35]% Strength <vs [Light Cavalry] units>", "[+35]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+35]% Strength <vs [Counter Cavalry] units>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
@@ -709,7 +709,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"upgradesTo": "Pike and Shot",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit" 
@@ -735,7 +735,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+30]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
+		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Pike and Shot",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -816,7 +816,7 @@
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Lancer",
 		"requiredResource": "Horses",
-		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit", "[+40]% Strength <vs [Heavy Cavalry] units>", "[+40]% Strength <vs [Light Cavalry] units>", "[+40]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+40]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "horse"
 	},
 	{
@@ -879,7 +879,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cuirasser",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[-20]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+40]% Strength <vs [Heavy Cavalry] units>", "[+40]% Strength <vs [Light Cavalry] units>", "[+40]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+40]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "elephant"
 	},
 	{
@@ -894,7 +894,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+40]% Strength <vs [Heavy Cavalry] units>", "[+40]% Strength <vs [Light Cavalry] units>", "[+40]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+40]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "horse"
 	},
 	{
@@ -1186,7 +1186,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1200,7 +1200,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1301,7 +1301,7 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit", "[+30]% Strength <vs [Mounted] units>"],
+		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1358,7 +1358,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities>",
-			"[+1] Sight", "[+30]% Strength <vs [Mounted] units>"],
+			"[+1] Sight", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"promotions": ["[Sipahi] ability"],
 		"upgradesTo": "Tank Destroyer",
 		"obsoleteTech": "Combined Arms",
@@ -1535,7 +1535,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Ballistics",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -1977,7 +1977,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["Never appears as a Barbarian unit", "[+30]% Strength <vs [Armored] units>"],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -2235,7 +2235,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Tank Destroyer",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+30]% Strength <vs [Armored] units>"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -2275,7 +2275,7 @@
 		"cost": 375,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Modern AT Missile",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "missile"
 	},
 	{
@@ -2376,7 +2376,7 @@
 		"name": "Helicopter Gunship",
 		"unitType": "Air Helicopter",
 		"movement": 6,
-		"strength": 60,
+		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
@@ -2489,7 +2489,7 @@
 		"strength": 70,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["Never appears as a Barbarian unit", "[+30]% Strength <vs [Armored] units>"],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "missile"
 	},
 	{
@@ -2532,7 +2532,7 @@
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+30]% Strength <vs [Armored] units>"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+50]% Strength <vs [Counter Cavalry] units>"],
 		"attackSound": "tankshot"
 	},
 	{

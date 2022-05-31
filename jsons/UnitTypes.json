@@ -22,7 +22,6 @@
     },
     {
         "name": "Anti Cavalry",
-	"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
         "movementType": "Land"
     },
     {
@@ -100,7 +99,7 @@
 
     {
         "name": "Anti Air",
-	"uniques": ["[+30]% Strength <vs [Air] units>", "[+30]% Strength <vs [Air Helicopter] units>"],
+	"uniques": ["[+35]% Strength <vs [Air] units>", "[+50]% Strength <vs [Air Helicopter] units>"],
         "movementType": "Land"
     },	
 
