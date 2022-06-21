@@ -277,7 +277,7 @@
 		"unitTypes": ["Ranged Heavy"]
 	},
 	{
-		"name": "Crossing Fire",
+		"name": "Coordinated Bombardment",
 		"uniques": ["[+8]% Strength bonus for [Ranged] units within [1] tiles"],
 		"prerequisites": ["Counter Battery Tactics"],
 		"unitTypes": ["Ranged Heavy"]
@@ -285,7 +285,7 @@
 	{
 		"name": "Artillery Logistics",
 		"uniques": ["Ignores terrain cost", "[1] additional attacks per turn"],
-		"prerequisites": ["Incendiary Munition", "Emplacement"],
+		"prerequisites": ["Incendiary Munition", "Coordinated Bombardment"],
 		"unitTypes": ["Ranged Heavy"]
 	},
 
