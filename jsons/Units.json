@@ -335,7 +335,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Heavy Infantry",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+20]% Strength <vs [Heavy Cavalry] units>", "[+20]% Strength <vs [Light Cavalry] units>", "[+20]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+20]% Strength <vs [Counter Cavalry] units>"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+15]% Strength <vs [Heavy Cavalry] units>", "[+15]% Strength <vs [Light Cavalry] units>", "[+20]% Strength <vs [Ranged Cavalry] units>", "[+15]% Strength <vs [Counter Cavalry] units>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
@@ -1336,7 +1336,7 @@
 		"name": "Horse Artillery",
 		"unitType": "Ranged Cavalry",
 		"movement": 4,
-		"strength": 16,
+		"strength": 19,
 		"rangedStrength": 22,
 		"range": 2,
 		"cost": 200,
@@ -1549,6 +1549,14 @@
 		"upgradesTo": "Great War Infantry",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Field Commander",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 400,
+		"requiredTech": "Military Science",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Military Academy] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"]
 	},
 	{
 		"name": "Demolition Sapper",
@@ -1947,7 +1955,7 @@
 		"name": "Self Propelled Gun",
 		"unitType": "Ranged Cavalry",
 		"movement": 4,
-		"strength": 40,
+		"strength": 38,
 		"rangedStrength": 60,
 		"cost": 400,
 		"requiredTech": "Ballistics",
@@ -2423,7 +2431,7 @@
 		"name": "Modern SPG",
 		"unitType": "Ranged Cavalry",
 		"movement": 5,
-		"strength": 65,
+		"strength": 60,
 		"rangedStrength": 85,
 		"cost": 425,
 		"requiredTech": "Mobile Tactics",
@@ -2721,7 +2729,7 @@
 		"range": 50,
 		"cost": 2000,
 		"requiredTech": "Satellites",
-		"uniques": ["Only available <if [Apollo Program] is constructed>", "Consumes [3] [Oil]", "Consumes [5] [Aluminum]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+		"uniques": ["Only available <if [Apollo Program] is constructed>", "Consumes [3] [Oil]", "Consumes [5] [Aluminum]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Only available <if [Spaceship Factory] is constructed>"],
 		"attackSound": "gdrAttack"
 	},
 	{
