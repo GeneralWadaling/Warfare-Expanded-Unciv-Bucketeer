@@ -254,31 +254,31 @@
 		"unitTypes": ["Ranged Heavy"]
 	},
 	{
-		"name": "Fortified Battery",
-		"uniques": ["[+30]% Strength <in [City center] tiles>"],
+		"name": "Emplacement",
+		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Ranged Heavy"]
 	},
 	{
 		"name": "Concentrated Barrage",
 		"uniques": ["[+20]% Strength <vs [Water] units>","[+10]% Strength <vs [Land] units>"],
-		"prerequisites": ["Fortified Battery", "Volley"],
+		"prerequisites": ["Emplacement", "Volley"],
 		"unitTypes": ["Ranged Heavy"]
 	},
 	{
 		"name": "Counter Battery Tactics",
 		"uniques": ["[+30]% Strength <vs [Siege Ranged] units> <when attacking>","[+20]% Strength <vs [Ranged Heavy] units> <when attacking>"],
-		"prerequisites": ["Fortified Battery", "Volley"],
+		"prerequisites": ["Emplacement", "Volley"],
 		"unitTypes": ["Ranged Heavy"]
 	},
 	{
 		"name": "Incendiary Munition",
-		"uniques": ["[+30]% Strength <vs cities>"],
+		"uniques": ["[+30]% Strength <vs cities>", "[+30]% Strength <when attacking> <in [Fort] tiles>"],
 		"prerequisites": ["Concentrated Barrage"],
 		"unitTypes": ["Ranged Heavy"]
 	},
 	{
-		"name": "Emplacement",
-		"uniques": ["[+25]% Strength <when defending>"],
+		"name": "Crossing Fire",
+		"uniques": ["[+8]% Strength bonus for [Ranged] units within [1] tiles"],
 		"prerequisites": ["Counter Battery Tactics"],
 		"unitTypes": ["Ranged Heavy"]
 	},
@@ -314,7 +314,7 @@
 	},
 	{
 		"name": "Fire Support",
-		"uniques": ["[+50]% to Flank Attack bonuses"],
+		"uniques": ["[+10]% Strength bonus for [Melee] units within [1] tiles"],
 		"prerequisites": ["Marksman"],
 		"unitTypes": ["Ranged Support"]
 	},
@@ -685,7 +685,7 @@
 	},
 	{
 		"name": "Beachhead",
-		"uniques": ["[+25]% Strength <in [Coast] tiles>"],
+		"uniques": ["[+20]% Strength <in [Coast] tiles> <when defending>", "[+20]% Strength <vs [Land] units>"],
 		"prerequisites": ["Coastal Bombardment", "Double Armor Plating"],
 		"unitTypes": ["Naval Siege"]
 	},
