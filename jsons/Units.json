@@ -1130,7 +1130,7 @@
 		"strength": 15,
 		"cost": 40,
 		"uniques": ["May upgrade to [Musketman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
-		"upgradesTo": "Armed Workers",
+		"upgradesTo": "Volunteers",
 		"requiredTech": "Printing Press",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "shot"
@@ -1144,7 +1144,7 @@
 		"strength": 18,
 		"cost": 20,
 		"requiredTech": "Printing Press",
-		"upgradesTo": "Armed Workers",
+		"upgradesTo": "Volunteers",
 		"obsoleteTech": "Industrialization",
 		"uniques": ["Ignores terrain cost", "May upgrade to [Musketman] through ruins-like effects", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>", "Can move immediately once bought"],
 		"promotions": ["[Minuteman] ability"],
@@ -1515,7 +1515,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Armed Workers",
+		"name": "Volunteers",
 		"unitType": "Militia",
 		"movement": 3,
 		"strength": 20,
