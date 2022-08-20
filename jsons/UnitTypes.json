@@ -139,7 +139,7 @@
 
     {
         "name": "Air Fighter",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"],
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
@@ -149,7 +149,7 @@
     },
     {
         "name": "Air Close Air Support",
-        "uniques": ["Aircraft"],
+        "uniques": ["Aircraft", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
