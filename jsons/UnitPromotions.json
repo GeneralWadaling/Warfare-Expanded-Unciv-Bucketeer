@@ -1019,7 +1019,7 @@
 	{
 		"name": "Nuclear Strike Reserve",
 		"uniques": ["[-50]% maintenance costs"],
-		"unitTypes": ["Air Atomic Bomber", "Air Nuke Missile"]
+		"unitTypes": ["Air Atomic Bomber", "Nuke Missile"]
 	},
 	{
 		"name": "Strategic Nuclear Bomber",
@@ -1031,7 +1031,7 @@
 	{
 		"name": "Multistage Thrusters",
 		"uniques": ["[+5] Range"],
-		"unitTypes": ["Air Missile", "Air Nuke Missile"]
+		"unitTypes": ["Air Missile", "Nuke Missile"]
 	},
 	{
 		"name": "Heavy Payload",
