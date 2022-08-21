@@ -48,7 +48,6 @@
     },
     {
         "name": "Ranged Support",
-	"uniques": ["[-20]% Strength <vs cities>"],
         "movementType": "Land"
     },
 
@@ -91,7 +90,6 @@
     },
     {
         "name": "Counter Cavalry",
-	"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>", "[+30]% Strength <vs [Light Cavalry] units>", "[+30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+30]% Strength <vs [Counter Cavalry] units>"],
         "movementType": "Land"
     },
 
@@ -99,29 +97,35 @@
 
     {
         "name": "Anti Air",
-	"uniques": ["[+35]% Strength <vs [Air] units>", "[+50]% Strength <vs [Air Helicopter] units>"],
+	"uniques": ["[+60]% Strength <vs [Aircraft] units>", "[+100]% Strength <vs [Helicopter] units>", "Cannot intercept [Ballistic] units"],
         "movementType": "Land"
-    },	
+    },
+    {
+        "name": "Missile Defense",
+	"uniques": ["Cannot intercept [Aircraft] units", "[+5000]% Strength <vs [Ballistic] units>"],
+        "movementType": "Land"
+    },
 
     //naval
 
     {
         "name": "Naval Melee",
-	"uniques": ["[+50]% Strength <vs [Naval Raider] units>", "[+50]% Strength <vs [Naval Submarine] units>"],
+	"uniques": ["[+50]% Strength <vs [Naval Raider] units>", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
         "movementType": "Water"
     },
     {
         "name": "Naval Ranged",
-	"uniques": ["[-20]% Strength <vs [Land] units>"],
+	"uniques": ["[-20]% Strength <vs [Land] units>", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
         "movementType": "Water"
     },
     {
         "name": "Naval Siege",
-	"uniques": ["[-20]% Strength <vs [Water] units>", "[+30]% Strength <vs cities>"],
+	"uniques": ["[-20]% Strength <vs [Naval Submarine] units>","[-20]% Strength <vs [Naval Raider] units>", "[+30]% Strength <vs cities>"],
         "movementType": "Water"
     },
     {
         "name": "Naval Carrier",
+	"uniques": ["Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units"],
         "movementType": "Water"
     },
     {
@@ -139,7 +143,7 @@
 
     {
         "name": "Air Fighter",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
@@ -149,12 +153,12 @@
     },
     {
         "name": "Air Close Air Support",
-        "uniques": ["Aircraft", "Can perform Air Sweep"],
+        "uniques": ["Aircraft", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
         "name": "Air Drone",
-        "uniques": ["Aircraft", "Can see over obstacles", "[+2] Sight"],
+        "uniques": ["Aircraft", "Can see over obstacles", "[+2] Sight", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
@@ -165,12 +169,12 @@
     {
         "name": "Air Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking", "Ballistic"]
     },
     {
-        "name": "Air Nuke Missile",
+        "name": "Nuke Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking", "Ballistic"]
     },
     {
         "name": "Air Helicopter",
@@ -180,7 +184,7 @@
     {
         "name": "Air Satellite",
         "movementType": "Air",
-        "uniques": ["Cannot be intercepted"]
+        "uniques": ["Cannot be intercepted", "Satellite"]
     },
 
 
@@ -221,11 +225,12 @@
     },
     {
         "name": "Melee Water",
-        "movementType": "Water"
+        "movementType": "Water",
+	"uniques": ["Cannot intercept [Ballistic] units"]
     },
     {
         "name": "Ranged Water",
-        "movementType": "Water"
+        "movementType": "Water",
     },
     {
         "name": "Submarine",
@@ -234,12 +239,12 @@
     },
     {
         "name": "Aircraft Carrier",
-        "movementType": "Water"
+        "movementType": "Water",
     },
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Cannot intercept [Ballistic] units", "Can perform Air Sweep"]
     },
     {
         "name": "Bomber",
@@ -254,7 +259,7 @@
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking"]
     },
     {
         "name": "Helicopter",
