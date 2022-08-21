@@ -2130,7 +2130,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Interceptor",
 		"obsoleteTech": "Lasers",
-		"uniques": ["[60]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+30]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["[60]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+30]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2290,14 +2290,14 @@
 		"name": "Atomic Bomb",
 		"unitType": "Air Atomic Bomber",
 		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
+		"strength": 70,
+		"rangedStrength": 70,
 		"range": 10,
 		"cost": 600,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
 		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
-			"Blast radius [1]", "Damage taken from interception reduced by [30]%"],
+			"Blast radius [1]", "Damage taken from interception reduced by [10]%"],
 		"attackSound": "nuke"
 		// Plane rather than a missile - can be based in city or Carrier only.
 		// Can be intercepted, but must die for it not to take effect.
@@ -2617,6 +2617,17 @@
 		"attackSound": "missile"
 	},
 	{
+		"name": "Theatre Defense System",
+		"unitType": "Missile Defense",
+		"movement": 3,
+		"interceptRange": 4,
+		"strength": 65,
+		"cost": 425,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [2] [Aluminum]"],
+		"attackSound": "missile"
+	},
+	{
 		"name": "Modern Armor",
 		"unitType": "Heavy Cavalry",
 		"movement": 5,
@@ -2652,7 +2663,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -2709,7 +2720,7 @@
 	},
 	{
 		"name": "Apoclaypse Missile",
-		"unitType": "Air Nuke Missile",
+		"unitType": "Nuke Missile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
