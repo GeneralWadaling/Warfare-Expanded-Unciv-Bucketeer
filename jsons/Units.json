@@ -2367,7 +2367,7 @@
 	},
 	{
 		"name": "Nuclear Missile",
-		"unitType": "Air Nuke Missile",
+		"unitType": "Nuke Missile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
